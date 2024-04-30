@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="product.info.addtocart">
+            <block name="product.info.revolut_payment_request" class="Revolut\Payment\Block\PaymentRequest\PaymentRequestButton" template="Revolut_Payment::prbutton/fast-checkout.phtml" before="-" />
+        </referenceBlock>
+
+        <referenceBlock name="product.info.addtocart.additional">
+            <block name="product.info.addtocart.revolut_payment_request.additional" class="Revolut\Payment\Block\PaymentRequest\PaymentRequestButton" template="Revolut_Payment::prbutton/fast-checkout.phtml" before="-" />
+        </referenceBlock>
+    </body>
+</page>
+

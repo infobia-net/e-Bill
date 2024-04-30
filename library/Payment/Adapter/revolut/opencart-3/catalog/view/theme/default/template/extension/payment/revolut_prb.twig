@@ -1,0 +1,121 @@
+{% if not error %}
+<style>
+#revolut-payment-request-overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 99999;
+  cursor: pointer;
+}
+
+#revolut-payment-request-overlay img {
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+</style>
+<script src="https://{{ js_domain_source }}.revolut.com/embed.js" id="revolut-core-js"></script>
+<div id="revolut-prb-field"></div>
+<div id="revolut-payment-request-overlay"><img src=""></div>
+<div id="revolut-prb-error" class="text-danger text-center"></div>
+
+<script type="text/javascript">
+  jQuery(function ($) {
+    const publicId = "{{ public_id }}";
+    const publicToken = "{{ public_token }}";
+    const mode = "{{ mode }}";
+    const totalAmount = "{{ total_amount }}";
+    const currency = "{{ currency }}";
+    //styling
+    const payment_revolut_prb_theme = "{{ payment_revolut_prb_theme }}"
+    const payment_revolut_prb_action = "{{ payment_revolut_prb_action }}"
+    const payment_revolut_prb_radius = "{{ payment_revolut_prb_radius }}"
+    const payment_revolut_prb_size = "{{ payment_revolut_prb_size }}"
+    const payment_revolut_prb_loader = "{{ payment_revolut_prb_loader }}"
+    $('#revolut-payment-request-overlay img').attr('src', payment_revolut_prb_loader);
+
+    const interval = setInterval(function () {
+      if (typeof RevolutCheckout != "undefined") {
+        initRevolutPay();
+      }
+    }, 100);
+
+    async function initRevolutPay() {
+      clearInterval(interval);
+      instance = RevolutCheckout.payments({
+        locale: "en",
+        publicToken: publicToken,
+      });
+
+      const RC = await RevolutCheckout(publicId);
+
+      let paymentRequest = RC.paymentRequest({
+        target: document.getElementById("revolut-prb-field"),
+        requestShipping: false,
+        onSuccess: () => {
+          completeOrder();
+        },
+        validate: (address) => {},
+        onError: (error) => {
+          handleError([error]);
+        },
+        buttonStyle: {
+          height: "50px",
+          action: payment_revolut_prb_action,
+          size: payment_revolut_prb_size,
+          variant: payment_revolut_prb_theme,
+          radius: payment_revolut_prb_radius,
+        },
+      });
+
+      paymentRequest.canMakePayment().then((result) => {
+        let methodName = result == "googlePay" ? "Google Pay (via Revolut)" : "Apple Pay (via Revolut)";
+        if (result) {
+          paymentRequest.render();
+        } else {
+          paymentRequest.destroy();
+        }
+      });
+    }
+
+    function handleError(errors) {
+      if (errors.length) {
+        $("#revolut-pay-error").html("");
+        $("#revolut-pay-error").append(errors[0].message);
+      } else {
+        $("#revolut-pay-error").html("");
+      }
+    }
+
+    function completeOrder() {
+      $('#revolut-payment-request-overlay').show();
+      $.ajax({
+        url: "index.php?route=extension/payment/revolut_prb/completeOrder",
+        type: "post",
+        data: { public_id: publicId },
+        dataType: "json",
+        success: function (json) {
+          if (json && json["success"]) {
+            location = json["redirect"];
+            return;
+          } else if (json && json["error"]) {
+            alert(json["error"]);
+          } else {
+            alert("{{ error_unknown_ajax }}");
+          }
+          $('#revolut-payment-request-overlay').hide();
+        },
+      });
+    }
+  });
+</script>
+{% else %}
+<div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> {{ error }}</div>
+{% endif %}

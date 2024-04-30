@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <route url="/V1/revolut/order/create" method="POST">
+        <service class="Revolut\Payment\Api\OrderManagementInterface" method="create"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+     <route url="/V1/revolut/order/cancel" method="POST">
+        <service class="Revolut\Payment\Api\OrderManagementInterface" method="cancel"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/revolut/order/webhook" method="POST">
+        <service class="Revolut\Payment\Api\OrderManagementInterface" method="webhook"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/revolut/order/address-validation-webhook" method="POST">
+        <service class="Revolut\Payment\Api\FastCheckoutManagementInterface" method="addressValidationWebhook"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/revolut/payment-information" method="POST">
+        <service class="Revolut\Payment\Api\OrderManagementInterface" method="placeOrder"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/revolut/log" method="POST">
+        <service class="Revolut\Payment\Api\LogManagementInterface" method="log"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/revolut/fast-checkout/addtocart" method="POST">
+        <service class="Revolut\Payment\Api\FastCheckoutManagementInterface" method="addToCart"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>    
+    <route url="/V1/revolut/fast-checkout/shippingoptions/load" method="POST">
+        <service class="Revolut\Payment\Api\FastCheckoutManagementInterface" method="loadShippingOptions"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/revolut/fast-checkout/shippingoptions/set" method="POST">
+        <service class="Revolut\Payment\Api\FastCheckoutManagementInterface" method="setShippingOption"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/revolut/fast-checkout/validate-order" method="POST">
+        <service class="Revolut\Payment\Api\FastCheckoutManagementInterface" method="validateOrder"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/revolut/fast-checkout/params" method="GET">
+        <service class="Revolut\Payment\Api\FastCheckoutManagementInterface" method="getParams"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+</routes>

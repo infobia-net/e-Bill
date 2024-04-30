@@ -1,0 +1,96 @@
+@import "~@tabler/core/src/scss/tabler";
+@import "~@tabler/core/src/scss/vendor/_litepicker.scss";
+@import "~@tabler/core/src/scss/vendor/_coloris.scss";
+@import "flags";
+@import "~tom-select/dist/css/tom-select.bootstrap5.css";
+@import "theme_settings";
+@import 'sortable-tablesort/sortable-base.css';
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.page {
+    min-height: calc(100vh - 2px);
+}
+
+.visible {
+    transition: opacity 400ms;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.ck.ck-content:not(.ck-comment__input *) {
+    min-height: 300px;
+    overflow-y: auto;
+}
+
+.ts-input {
+    color: inherit;
+}
+
+.ts-wrapper {
+    .ts-control {
+        width: 100%;
+        color: inherit;
+        &.locale {
+            width: 205px;
+        }
+        .dropdown-menu {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .ts-dropdown {
+        .active {
+            background-color: rgba(var(--tblr-muted-rgb), .06);
+            color: inherit;
+        }
+
+        .selected {
+            background-color: rgba(var(--tblr-muted-rgb), .1);
+        }
+    }
+}
+
+.canned_ticket_response {
+    width: 18rem;
+}
+
+.navbar-brand-image {
+    height: 1.6rem
+}
+
+@media (max-width: 768px) {
+    .ts-wrapper.js-language-selector {
+        width: 180px
+    }
+}
+
+@media (max-width: 320px) {
+    .js-theme-toggler {
+        display: none;
+    }
+}
+
+#script-code, #html-code, #html-code2 {
+    resize: none;
+}
+
+[data-bs-theme=dark]
+{
+  .toast {
+    background: var(--tblr-bg-surface);
+    border: var(--tblr-border-width) var(--tblr-border-style) var(--tblr-secondary);
+    }
+  .toast-header {
+    color: var(--tblr-secondary);
+   }
+}
+
+.toast {
+    position: relative;
+  }

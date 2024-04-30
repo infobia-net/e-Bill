@@ -1,0 +1,20 @@
+<?php
+    /*
+     * @var \Revolut\Payment\Block\System\Config\WebhookSetup $block
+    */
+?>
+
+<div id="ApplePayDomainSetup">
+    <ul class="resultList" style="list-style: none;"></ul>
+</div>
+
+<script>
+    var applePayDomainSetupAjaxUrl = "<?=$block->getApplePayDomainSetupAjaxUrl()?>";
+    
+    require([
+        "Revolut_Payment/js/applepay-domain-setup",
+        "domReady!"
+    ], function (ApplePayDomainSetup) {
+        ApplePayDomainSetup().setup(applePayDomainSetupAjaxUrl);
+    })
+</script>

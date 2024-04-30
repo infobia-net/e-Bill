@@ -1,0 +1,22 @@
+<?php
+    /*
+     * @var \Revolut\Payment\Block\System\Config\WebhookSetup $block
+    */
+?>
+
+<div id="addressValidationWebhookSetup">
+    <p class="addressValidationWebhookSetupInfo" style="color:red;display:none">IMPORTANT: In Production mode <b>Fast Checkout feature</b> will not get activated unless the address validation webhook setup has not been done properly for the respective store. </p>
+    <ul class="resultList" style="list-style: none;"></ul>
+</div>
+
+<script>
+    var webhookSetupUrl = "<?=$block->getAddressValidationWebhookSetupAjaxUrl()?>";
+
+    require([
+        "Revolut_Payment/js/address-validation-webhook-setup",
+        "domReady!"
+    ], function (AddressValidationWebhookSetup) {
+        AddressValidationWebhookSetup().setup(webhookSetupUrl);
+    })
+</script>
+

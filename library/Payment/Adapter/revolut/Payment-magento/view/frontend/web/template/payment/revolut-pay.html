@@ -1,0 +1,59 @@
+<div
+  class="payment-method"
+  data-bind="css: {'_active': (getCode() == isChecked())}"
+>
+  <div class="payment-method-title field choice">
+    <input
+      type="radio"
+      name="payment[method]"
+      class="radio"
+      data-bind="event: {change: selectRevolutPaymentMethod}, attr: {'id': getCode()}, value: getCode(), checked: isChecked, change: selectRevolutPaymentMethod, click: selectPaymentMethod, visible: isRadioButtonVisible()"
+    />
+    <label data-bind="attr: {'for': getCode()}" class="label">
+      <span data-bind="text: getTitle()"></span>
+    </label>
+
+    <img
+      style="margin-left: 8px"
+      data-bind="attr: { src: require.toUrl('Revolut_Payment/images/revolut.svg') }"
+    />
+    <img
+      style="margin-left: 8px"
+      data-bind="attr: { src: require.toUrl('Revolut_Payment/images/mastercard.svg') }"
+    />
+    <img
+      style="margin-left: 8px"
+      data-bind="attr: { src: require.toUrl('Revolut_Payment/images/visa.svg') }"
+    />
+    <img
+      class="revolut-amex-logo"
+      style="margin-left: 8px;"
+      data-bind="attr: { src: require.toUrl('Revolut_Payment/images/amex.svg') }, visible:displayAmexLogo"
+    />
+  </div>
+  <div class="payment-method-content">
+    <!-- ko foreach: getRegion('messages') -->
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <!--/ko-->
+    <div class="payment-method-billing-address">
+      <!-- ko foreach: $parent.getRegion(getBillingAddressFormName()) -->
+      <!-- ko template: getTemplate() --><!-- /ko -->
+      <!--/ko-->
+    </div>
+
+    <div id="revolutPayForm" data-bind="afterRender: createRevolutForm">
+      <div data-bind="visible: isPlaceOrderActionAllowed()">
+        <div id="revolut-pay-element"></div>
+      </div>
+    </div>
+
+    <!--     Handle error       -->
+    <p id="show-error-pay-error"></p>
+    <div style="height: 30px;"></div>
+    <div class="checkout-agreements-block">
+      <!-- ko foreach: $parent.getRegion('before-place-order') -->
+      <!-- ko template: getTemplate() --><!-- /ko -->
+      <!--/ko-->
+    </div>
+  </div>
+</div>

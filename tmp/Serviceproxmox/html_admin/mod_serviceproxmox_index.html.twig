@@ -1,0 +1,193 @@
+{% import 'macro_functions.html.twig' as mf %}
+
+{% extends "layout_default.html.twig" %}
+
+{% block meta_title %}{{ 'Proxmox servers'|trans }}{% endblock %}
+
+{% set active_menu = 'system' %}
+
+{% block content %}
+
+
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" href="#tab-index" data-bs-toggle="tab">{{ 'Servers'|trans }}</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" href="#tab-new-server" data-bs-toggle="tab">
+                <svg class="icon me-2">
+                    <use xlink:href="#plus" />
+                </svg>
+                {{ 'New server'|trans }}
+            </a>
+        </li>
+     </ul>
+
+
+
+<div class="card">
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="tab-index" role="tabpanel">
+            <div class="card-body">
+		    {% set servers_grouped = admin.serviceproxmox_server_get_list() %}
+            {% for group in servers_grouped %}
+            <div class="card-body">
+                <h3>{{ 'Servers'|trans }}: <strong>{{group.group}}</strong> group</h3>
+            </div>
+
+            <table class="table card-table table-vcenter table-striped text-nowrap sortable">
+                <thead>
+                    <tr>
+                        <th>{{ 'ID'|trans }}</th>
+						<th>{{ 'Name'|trans }}</th>
+                        <th>{{ 'Hostname/IP'|trans }}</th>
+						<th>{{ 'Slots'|trans }}</th>
+                        <th>{{ 'Active'|trans }}</th>
+                        <th style="width:22%">&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+		{% for server in group.servers %}
+                    <tr>
+                        <td><a href="{{ '/serviceproxmox/server'|alink }}/{{ server.id }}">{{server.id}}</a></td>
+						<td>{{server.name}}</td>
+                        <td><a href="https://{{server.access}}:8006" target="_blank">{{server.hostname}} {{server.ipv4}} {{server.ipv6}}</a></td>
+						<td>{{ server.used_slots }}/{{ server.slots }}</td>
+                        <td>{{ mf.q(server.active) }}</td>
+			<td>
+                            <a class="btn btn-icon" href="https://{{server.access}}:8006" target="_blank">
+                                <svg class="icon">
+                                    <use xlink:href="#settings" />
+                                </svg>
+                            </a>
+                            <a class="btn btn-icon api-link" href="{{ 'api/admin/serviceproxmox/server_test_connection'|link({ 'id': server.id, 'CSRFToken': CSRFToken }) }}" title="{{ 'Test connection'|trans }}" data-api-msg="{{ 'Server connected'|trans }}">
+                                <svg class="icon">
+                                    <use xlink:href="#wifi" />
+                                </svg>
+                            </a>
+                            <a class="btn btn-icon" href="{{ '/serviceproxmox/server'|alink }}/{{ server.id }}">
+                                <svg class="icon">
+                                    <use xlink:href="#edit" />
+                                </svg>
+                            </a>
+                            <a class="btn btn-icon api-link" data-api-confirm="{{ 'Are you sure?'|trans }}" data-api-redirect="{{ 'serviceproxmox'|alink }}" href="{{ 'api/admin/serviceproxmox/server_delete'|link({ 'id': server.id, 'CSRFToken': CSRFToken }) }}">
+                                <svg class="icon">
+                                    <use xlink:href="#delete" />
+                                </svg>
+                            </a>
+                        </td>
+
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td class="text-muted" colspan="7">{{ 'The list is empty'|trans }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+		{% endfor %}
+        </div>
+</div>
+        <div class="tab-pane fade" id="tab-new-server" role="tabpanel">
+            <div class="card-body">
+            <form method="post" action="admin/serviceproxmox/server_create" class="api-form" data-api-redirect="{{ 'serviceproxmox'|alink }}">
+                    <div class="mb-3 row">
+                        <label class="form-label col-3 col-form-label">{{ 'Name'|trans }}:</label>
+                        <div class="col">
+                            <input class="form-control" type="text" name="name" value="" required="required" placeholder="{{ 'Unique name to identify this server'|trans }}">
+                        </div>
+                        <div class="fix"></div>
+                    </div>
+					<div class="mb-3 row">
+                        <label class="form-label col-3 col-form-label">{{ 'Group'|trans }}:</label>
+                        <div class="col">
+                            <input class="form-control" type="text" name="group" value="" placeholder="{{ 'Server group'|trans }}">
+                        </div>
+                        <div class="fix"></div>
+                    </div>
+					<div class="mb-3 row">
+                        <label class="form-label col-3 col-form-label">{{ 'IPv4'|trans }}:</label>
+                        <div class="col">
+                            <input class="form-control" type="text" name="ipv4" value="" placeholder="{{ 'IPv4 address of the server'|trans }}">
+                        </div>
+                        <div class="fix"></div>
+                    </div>
+					<div class="mb-3 row">
+                        <label class="form-label col-3 col-form-label">{{ 'IPv6'|trans }}:</label>
+                        <div class="col">
+                            <input class="form-control" type="text" name="ipv6" value="" placeholder="{{ 'IPv6 address of the server'|trans }}">
+                        </div>
+                        <div class="fix"></div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="form-label col-3 col-form-label">{{ 'Hostname'|trans }}:</label>
+                        <div class="col">
+                            <input class="form-control" type="text" name="hostname" value="" placeholder="{{ 'server1.yourserverdomain.com'|trans }}">
+                        </div>
+                        <div class="fix"></div>
+                    </div>
+					<div class="mb-3 row">
+                        <label class="form-label col-3 col-form-label">{{ 'Proxmox user realm'|trans }}:</label>
+                        <div class="col">
+                            <input class="form-control" type="text" name="realm" value="" placeholder="{{ 'pam'|trans }}">
+                        </div>
+                        <div class="fix"></div>
+                    </div>
+					<div class="mb-3 row">
+                        <label class="form-label col-3 col-form-label">{{ 'Slots'|trans }}:</label>
+                        <div class="col">
+                            <input class="form-control" type="text" name="slots" value="" required="required" placeholder="{{ 'Maximum number of accounts on this server'|trans }}">
+                        </div>
+                        <div class="fix"></div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="form-label col-3 col-form-label">{{ 'Root user'|trans }}:</label>
+                        <div class="col">
+                            <input class="form-control" type="text" name="root_user" required="required" value="root" placeholder="{{ 'Root username'|trans }}">
+                        </div>
+                        <div class="fix"></div>
+                    </div>
+                    
+                    <div class="mb-3 row">
+                        <label class="form-label col-3 col-form-label">{{ 'Root Password'|trans }}:</label>
+                        <div class="col">
+                            <input type="password" name="root_password" required="required" value="" placeholder="{{ 'Root password of the server'|trans }}">
+                        </div>
+                        <div class="fix"></div>
+                    </div>
+					
+					<div class="mb-3 row">
+                        <label class="form-label col-3 col-form-label">{{ 'Extra config'|trans }}:</label>
+                        <div class="col">
+                            <input class="form-control" type="text" name="config" value="" placeholder="{{ 'extra config'|trans }}">
+                        </div>
+                        <div class="fix"></div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label class="form-label col-3 col-form-label">{{ 'Enable/Disable'|trans }}:</label>
+                            <div class="col">
+                                <input class="form-check-input" type="radio" name="active" value="1" checked="checked"/><label class="form-label col-3 col-form-label">{{ 'Enable'|trans }}</label>
+                                <input class="form-check-input" type="radio" name="active" value="0"/><label class="form-label col-3 col-form-label">{{ 'Disable'|trans }}</label>
+                            </div>
+                        <div class="fix"></div>
+                    </div>
+					
+					<input type="submit" value="{{ 'Add server'|trans }}" class="btn btn-primary" />
+            </form>
+        </div>
+
+    </div>
+</div>
+
+</div>
+
+
+{% endblock %}

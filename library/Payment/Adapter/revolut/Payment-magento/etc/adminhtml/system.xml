@@ -1,0 +1,26 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="payment">
+            <group id="revolut_payment" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>
+                    <![CDATA[
+                        <div class="revolut-payment-logo"></div>
+                        <div class="revolut-payment-byline">
+                            <p>Accept card payments from your customers quickly and securely.</p>
+                            <p>To read more about what you can do and how to configure this extension,</p>
+                            <p>please read our <a target="_blank" href="https://developer.revolut.com/docs/guides/accept-payments/plugins/magento/configuration">Documentation</a></p>
+                            <p class="webhook-setup-notice">Webhook setup was unsuccessful, this issue will block gateway to appear at the checkout page</p>
+                        </div>
+                    ]]>
+                </label>
+                <fieldset_css>complex revolut-payment-section</fieldset_css>
+                <frontend_model>Revolut\Payment\Block\Adminhtml\System\Config\Fieldset\Payment</frontend_model>
+                <include path="Revolut_Payment::system/revolut_required.xml"/>
+                <include path="Revolut_Payment::system/revolut_card.xml"/>
+                <include path="Revolut_Payment::system/revolut_pay.xml"/>
+                <include path="Revolut_Payment::system/revolut_payment_request.xml"/>
+                <include path="Revolut_Payment::system/additional_settings.xml"/>
+            </group>
+        </section>
+    </system>
+</config>

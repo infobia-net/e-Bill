@@ -1,0 +1,36 @@
+[25-Apr-2024 20:30:23 UTC] event.INFO: Staff member 1 logged in  
+[25-Apr-2024 20:30:27 UTC] event.INFO: Updated currency rates  
+[25-Apr-2024 20:30:27 UTC] event.INFO: Executed action to synchronize domain expiration dates with registrar  
+[25-Apr-2024 20:30:27 UTC] event.INFO: Executed action to send invoice payment reminders  
+[25-Apr-2024 20:30:27 UTC] event.INFO: Executed action to invoke invoice due event  
+[25-Apr-2024 20:30:27 UTC] event.INFO: Executed action to suspend expired orders  
+[25-Apr-2024 20:30:27 UTC] event.INFO: Executed action to delete expired clients password reminders  
+[25-Apr-2024 20:30:27 UTC] event.INFO: Executed action to clear expired shopping carts from database  
+[25-Apr-2024 21:57:24 UTC] event.INFO: Updated system general settings  
+[25-Apr-2024 22:05:23 UTC] event.INFO: Updated currency rates  
+[25-Apr-2024 22:05:23 UTC] event.INFO: Executed action to send invoice payment reminders  
+[25-Apr-2024 22:05:23 UTC] event.INFO: Executed action to suspend expired orders  
+[25-Apr-2024 22:05:23 UTC] event.INFO: Executed action to delete expired clients password reminders  
+[25-Apr-2024 22:05:23 UTC] event.INFO: Executed action to clear expired shopping carts from database  
+[25-Apr-2024 22:07:09 UTC] event.INFO: Created new client #1 ["1"] 
+[25-Apr-2024 22:08:43 UTC] event.INFO: Changed client #1 password [1] 
+[25-Apr-2024 22:08:48 UTC] event.INFO: Client #1 logged in [1] 
+[25-Apr-2024 23:57:42 UTC] event.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_code">500</item>
+    <item key="is_success">0</item>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 23:57:42 UTC] event.INFO: Added "Domain registration and transfer" to shopping cart ["Domain registration and transfer"] 
+[25-Apr-2024 23:58:16 UTC] event.INFO: Staff member 1 logged in  

@@ -1,0 +1,17 @@
+parameters:
+    level: 5
+    paths:
+        - %currentWorkingDirectory%/src
+        - %currentWorkingDirectory%/tests
+        - %currentWorkingDirectory%/examples
+    excludePaths:
+        - %currentWorkingDirectory%/vendor
+    ignoreErrors:
+            - '#Access to an undefined property Eloquent\\Liberator\\LiberatorProxyInterface::\$request#'
+            - '#Access to protected property Revolut\\Api\\RevolutApiClient::\$apiKey#'
+            - '#Access to protected property Revolut\\Api\\RevolutApiClient::\$httpClient#'
+            - '#Call to an undefined method Revolut\\Api\\HttpAdapter\\RevolutHttpAdapterInterface::enableDebugging\(\)#'
+            - '#Call to an undefined method Revolut\\Api\\HttpAdapter\\RevolutHttpAdapterInterface::disableDebugging\(\)#'
+    treatPhpDocTypesAsCertain: false
+includes:
+    - phpstan-baseline.neon

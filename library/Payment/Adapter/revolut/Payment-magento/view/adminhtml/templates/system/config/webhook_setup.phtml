@@ -1,0 +1,22 @@
+<?php
+    /*
+     * @var \Revolut\Payment\Block\System\Config\WebhookSetup $block
+    */
+?>
+
+<div id="webhookSetup">
+    <p class="webhookSetupInfo" style="color:red;display:none">IMPORTANT: In Production mode Payment Gateways will not get activated unless the webhook setup has not been done properly for the respective store. </p>
+    <ul class="resultList" style="list-style: none;"></ul>
+</div>
+
+<script>
+    var webhookSetupAjaxUrl = "<?=$block->getWebhookSetupAjaxUrl()?>";
+
+    require([
+        "Revolut_Payment/js/webhook-setup",
+        "domReady!"
+    ], function (WebhookSetup) {
+        WebhookSetup().setup(webhookSetupAjaxUrl);
+    })
+</script>
+

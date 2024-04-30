@@ -1,0 +1,3 @@
+1714475956
+Update.latest_release_version_info
+O:1:"©":1:{s:6:"-0Ûu‘";a:9:{s:7:"version";s:6:"0.6.20";s:12:"download_url";s:83:"https://github.com/FOSSBilling/FOSSBilling/releases/download/0.6.20/FOSSBilling.zip";s:12:"release_date";s:20:"2024-04-11T21:34:06Z";s:13:"release_notes";s:37:"**Error: Release notes unavailable.**";s:11:"update_type";i:1;s:10:"last_check";s:19:"2024-04-30 10:19:18";s:10:"next_check";s:19:"2024-04-30 11:19:18";s:6:"branch";s:7:"release";s:19:"minimum_php_version";s:3:"8.1";}}

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<include xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_include.xsd">
+    <group id="revolut_required" translate="label comment" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+        <label><![CDATA[API Settings]]></label>
+        <field id="api_mode" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Select Mode</label>
+            <source_model>Revolut\Payment\Model\Source\Mode</source_model>
+            <config_path>payment/revolut_card/api_mode</config_path>
+        </field>
+        <field id="api_key_sandbox" translate="label" type="obscure" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Sandbox API secret key</label>
+            <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
+            <config_path>payment/revolut_card/api_key_sandbox</config_path>
+            <depends>
+                <field id="api_mode">1</field>
+            </depends>
+        </field>
+        <field id="api_key_live" translate="label" type="obscure" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Production API secret key</label>
+            <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
+            <config_path>payment/revolut_card/api_key_live</config_path>
+            <depends>
+                <field id="api_mode">0</field>
+            </depends>
+        </field>
+        <field id="payment_action" translate="label" type="select" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Payment Action</label>
+            <source_model>Revolut\Payment\Model\Source\PaymentAction</source_model>
+            <config_path>payment/revolut_card/payment_action</config_path>
+        </field>
+        <field id="webhook_setup" translate="label" type="button" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Webhook Setup</label>
+            <frontend_model>Revolut\Payment\Block\System\Config\WebhookSetup</frontend_model>
+        </field>
+        <field id="address_validation_webhook_setup" translate="label" type="button" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Address Validation Webhook Setup</label>
+            <frontend_model>Revolut\Payment\Block\System\Config\AddressValidationWebhookSetup</frontend_model>
+        </field>
+        <field id="apple_pay_domain_setup" translate="label" type="button" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>ApplePay Domain Setup</label>
+            <frontend_model>Revolut\Payment\Block\System\Config\ApplePayDomainSetup</frontend_model>
+        </field>
+    </group>
+</include>

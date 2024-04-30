@@ -1,0 +1,9 @@
+[30-Apr-2024 05:02:10 UTC] routing.INFO: Unable to find template "mod_page_actuator_gateway_routes.html.twig" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[30-Apr-2024 05:02:10 UTC] routing.INFO: Page /actuator/gateway/routes not found  
+[30-Apr-2024 05:50:43 UTC] routing.INFO: Page /cf_scripts/scripts/ajax/ckeditor/ckeditor.js not found  
+[30-Apr-2024 07:32:48 UTC] routing.INFO: Unable to find template "mod_page_autodiscover_autodiscover.json" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[30-Apr-2024 07:32:48 UTC] routing.INFO: Page /autodiscover/autodiscover.json not found  
+[30-Apr-2024 10:11:27 UTC] routing.INFO: Unable to find template "mod_page_apple-touch-icon-precomposed.png" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[30-Apr-2024 10:11:27 UTC] routing.INFO: Page /apple-touch-icon-precomposed.png not found  
+[30-Apr-2024 10:11:27 UTC] routing.INFO: Unable to find template "mod_page_apple-touch-icon.png" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[30-Apr-2024 10:11:27 UTC] routing.INFO: Page /apple-touch-icon.png not found  

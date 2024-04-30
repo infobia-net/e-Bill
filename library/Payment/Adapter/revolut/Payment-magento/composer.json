@@ -1,0 +1,29 @@
+{
+  "name": "revolut/module-payment",
+  "description": "Revolut payment gateway for Magento2",
+  "type": "magento2-module",
+  "version": "2.0.8",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Revolut\\Payment\\": ""
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  },
+  "repositories": {
+    "repo.magento.com": {
+        "type": "composer",
+        "url": "https://repo.magento.com/"
+    }
+}
+}

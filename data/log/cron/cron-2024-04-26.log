@@ -1,0 +1,540 @@
+[26-Apr-2024 01:25:20 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 01:25:20 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 01:25:20 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 01:25:20 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 01:25:20 UTC] cron.INFO: Cleared 2 outdated sessions from the database  
+[26-Apr-2024 01:25:20 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 15:22:37 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 15:22:37 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 15:22:37 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 15:22:37 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 15:22:37 UTC] cron.INFO: Cleared 7 outdated sessions from the database  
+[26-Apr-2024 15:22:37 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 16:21:45 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 16:21:45 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 16:21:45 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 16:21:45 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 16:21:45 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 16:21:45 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 16:46:24 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 16:46:25 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 16:46:25 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 16:46:25 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 16:46:25 UTC] cron.INFO: Cleared 2 outdated sessions from the database  
+[26-Apr-2024 16:46:25 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 16:50:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 16:50:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 16:50:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 16:50:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 16:50:02 UTC] cron.INFO: Cleared 1 outdated sessions from the database  
+[26-Apr-2024 16:50:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 16:55:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 16:55:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 16:55:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 16:55:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 16:55:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 16:55:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 17:00:02 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 17:00:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 17:00:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 17:00:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 17:00:02 UTC] cron.INFO: Cleared 1 outdated sessions from the database  
+[26-Apr-2024 17:00:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 17:05:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 17:05:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 17:05:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 17:05:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 17:05:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 17:05:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 17:10:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 17:10:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 17:10:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 17:10:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 17:10:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 17:10:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 17:15:02 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 17:15:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 17:15:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 17:15:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 17:15:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 17:15:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 17:20:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 17:20:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 17:20:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 17:20:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 17:20:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 17:20:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 17:25:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 17:25:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 17:25:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 17:25:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 17:25:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 17:25:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 17:30:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 17:30:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 17:30:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 17:30:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 17:30:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 17:30:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 17:35:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 17:35:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 17:35:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 17:35:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 17:35:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 17:35:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 17:40:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 17:40:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 17:40:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 17:40:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 17:40:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 17:40:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 17:45:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 17:45:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 17:45:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 17:45:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 17:45:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 17:45:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 17:50:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 17:50:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 17:50:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 17:50:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 17:50:01 UTC] cron.INFO: Cleared 2 outdated sessions from the database  
+[26-Apr-2024 17:50:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 17:55:02 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 17:55:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 17:55:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 17:55:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 17:55:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 17:55:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 18:00:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 18:00:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 18:00:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 18:00:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 18:00:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 18:00:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 18:05:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 18:05:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 18:05:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 18:05:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 18:05:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 18:05:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 18:10:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 18:10:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 18:10:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 18:10:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 18:10:02 UTC] cron.INFO: Cleared 1 outdated sessions from the database  
+[26-Apr-2024 18:10:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 18:15:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 18:15:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 18:15:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 18:15:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 18:15:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 18:15:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 18:20:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 18:20:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 18:20:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 18:20:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 18:20:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 18:20:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 18:25:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 18:25:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 18:25:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 18:25:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 18:25:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 18:25:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 18:30:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 18:30:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 18:30:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 18:30:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 18:30:01 UTC] cron.INFO: Cleared 2 outdated sessions from the database  
+[26-Apr-2024 18:30:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 18:35:02 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 18:35:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 18:35:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 18:35:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 18:35:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 18:35:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 18:40:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 18:40:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 18:40:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 18:40:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 18:40:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 18:40:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 18:45:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 18:45:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 18:45:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 18:45:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 18:45:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 18:45:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 18:50:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 18:50:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 18:50:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 18:50:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 18:50:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 18:50:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 18:55:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 18:55:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 18:55:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 18:55:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 18:55:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 18:55:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 19:00:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 19:00:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 19:00:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 19:00:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 19:00:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 19:00:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 19:05:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 19:05:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 19:05:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 19:05:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 19:05:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 19:05:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 19:10:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 19:10:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 19:10:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 19:10:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 19:10:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 19:10:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 19:15:02 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 19:15:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 19:15:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 19:15:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 19:15:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 19:15:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 19:20:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 19:20:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 19:20:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 19:20:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 19:20:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 19:20:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 19:25:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 19:25:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 19:25:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 19:25:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 19:25:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 19:25:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 19:30:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 19:30:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 19:30:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 19:30:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 19:30:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 19:30:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 19:35:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 19:35:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 19:35:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 19:35:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 19:35:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 19:35:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 19:40:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 19:40:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 19:40:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 19:40:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 19:40:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 19:40:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 19:45:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 19:45:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 19:45:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 19:45:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 19:45:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 19:45:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 19:50:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 19:50:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 19:50:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 19:50:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 19:50:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 19:50:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 19:55:02 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 19:55:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 19:55:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 19:55:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 19:55:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 19:55:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 20:00:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 20:00:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 20:00:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 20:00:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 20:00:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 20:00:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 20:05:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 20:05:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 20:05:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 20:05:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 20:05:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 20:05:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 20:10:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 20:10:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 20:10:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 20:10:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 20:10:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 20:10:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 20:15:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 20:15:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 20:15:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 20:15:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 20:15:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 20:15:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 20:20:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 20:20:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 20:20:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 20:20:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 20:20:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 20:20:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 20:25:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 20:25:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 20:25:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 20:25:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 20:25:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 20:25:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 20:30:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 20:30:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 20:30:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 20:30:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 20:30:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 20:30:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 20:35:02 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 20:35:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 20:35:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 20:35:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 20:35:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 20:35:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 20:40:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 20:40:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 20:40:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 20:40:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 20:40:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 20:40:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 20:45:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 20:45:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 20:45:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 20:45:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 20:45:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 20:45:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 20:50:02 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 20:50:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 20:50:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 20:50:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 20:50:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 20:50:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 20:55:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 20:55:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 20:55:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 20:55:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 20:55:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 20:55:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 21:00:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 21:00:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 21:00:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 21:00:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 21:00:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 21:00:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 21:05:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 21:05:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 21:05:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 21:05:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 21:05:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 21:05:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 21:10:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 21:10:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 21:10:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 21:10:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 21:10:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 21:10:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 21:15:02 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 21:15:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 21:15:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 21:15:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 21:15:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 21:15:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 21:20:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 21:20:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 21:20:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 21:20:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 21:20:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 21:20:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 21:25:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 21:25:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 21:25:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 21:25:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 21:25:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 21:25:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 21:30:02 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 21:30:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 21:30:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 21:30:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 21:30:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 21:30:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 21:35:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 21:35:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 21:35:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 21:35:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 21:35:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 21:35:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 21:40:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 21:40:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 21:40:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 21:40:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 21:40:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 21:40:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 21:45:02 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 21:45:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 21:45:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 21:45:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 21:45:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 21:45:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 21:50:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 21:50:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 21:50:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 21:50:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 21:50:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 21:50:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 21:55:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 21:55:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 21:55:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 21:55:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 21:55:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 21:55:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 22:00:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 22:00:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 22:00:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 22:00:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 22:00:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 22:00:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 22:05:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 22:05:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 22:05:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 22:05:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 22:05:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 22:05:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 22:10:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 22:10:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 22:10:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 22:10:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 22:10:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 22:10:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 22:15:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 22:15:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 22:15:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 22:15:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 22:15:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 22:15:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 22:20:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 22:20:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 22:20:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 22:20:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 22:20:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 22:20:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 22:25:02 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 22:25:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 22:25:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 22:25:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 22:25:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 22:25:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 22:30:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 22:30:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 22:30:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 22:30:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 22:30:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 22:30:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 22:35:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 22:35:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 22:35:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 22:35:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 22:35:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 22:35:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 22:40:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 22:40:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 22:40:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 22:40:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 22:40:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 22:40:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 22:45:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 22:45:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 22:45:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 22:45:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 22:45:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 22:45:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 22:50:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 22:50:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 22:50:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 22:50:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 22:50:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 22:50:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 22:55:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 22:55:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 22:55:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 22:55:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 22:55:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 22:55:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 23:00:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 23:00:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 23:00:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 23:00:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 23:00:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 23:00:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 23:05:02 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 23:05:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 23:05:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 23:05:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 23:05:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 23:05:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 23:10:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 23:10:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 23:10:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 23:10:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 23:10:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 23:10:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 23:15:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 23:15:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 23:15:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 23:15:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 23:15:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 23:15:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 23:20:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 23:20:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 23:20:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 23:20:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 23:20:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 23:20:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 23:25:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 23:25:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 23:25:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 23:25:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 23:25:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 23:25:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 23:30:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 23:30:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 23:30:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 23:30:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 23:30:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 23:30:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 23:35:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 23:35:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 23:35:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 23:35:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 23:35:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 23:35:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 23:40:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 23:40:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 23:40:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 23:40:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 23:40:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 23:40:01 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 23:45:02 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 23:45:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 23:45:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 23:45:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 23:45:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 23:45:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 23:50:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 23:50:02 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 23:50:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 23:50:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 23:50:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 23:50:02 UTC] cron.INFO: Finished executing cron jobs  
+[26-Apr-2024 23:55:01 UTC] cron.INFO: Started executing cron jobs  
+[26-Apr-2024 23:55:01 UTC] cron.INFO: Pruned the filesystem cache  
+[26-Apr-2024 23:55:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[26-Apr-2024 23:55:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[26-Apr-2024 23:55:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[26-Apr-2024 23:55:01 UTC] cron.INFO: Finished executing cron jobs  

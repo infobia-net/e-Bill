@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp:etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="script-src">
+            <values>
+                <value id="revolut" type="host">*.revolut.com</value>
+                <value id="all-google" type="host">*.google.com</value>
+                <value id="apple" type="host">*.cdn-apple.com</value>
+                <value id="polyfill" type="host">cdn.polyfill.io</value>
+                <value id="google" type="host">google.com</value>
+                <value id="pay-google" type="host">pay.google.com</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+            </values>
+        </policy>
+        <policy id="frame-src">
+            <values>
+                <value id="revolut" type="host">*.revolut.com</value>
+                <value id="all-google" type="host">*.google.com</value>
+                <value id="apple" type="host">*.cdn-apple.com</value>
+                <value id="polyfill" type="host">cdn.polyfill.io</value>
+                <value id="google" type="host">google.com</value>
+                <value id="pay-google" type="host">pay.google.com</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+            </values>
+        </policy>
+        <policy id="connect-src">
+            <values>
+                <value id="revolut" type="host">*.revolut.com</value>
+                <value id="all-google" type="host">*.google.com</value>
+                <value id="apple" type="host">*.cdn-apple.com</value>
+                <value id="polyfill" type="host">cdn.polyfill.io</value>
+                <value id="google" type="host">google.com</value>
+                <value id="pay-google" type="host">pay.google.com</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+            </values>
+        </policy>
+        <policy id="frame-ancestors">
+            <values>
+                <value id="revolut" type="host">*.revolut.com</value>
+                <value id="all-google" type="host">*.google.com</value>
+                <value id="apple" type="host">*.cdn-apple.com</value>
+                <value id="polyfill" type="host">cdn.polyfill.io</value>
+                <value id="google" type="host">google.com</value>
+                <value id="pay-google" type="host">pay.google.com</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+            </values>
+        </policy>
+        <policy id="font-src">
+            <values>                
+                <value id="revolut" type="host">*.revolut.com</value>
+                <value id="all-google" type="host">*.google.com</value>
+                <value id="google" type="host">google.com</value>
+                <value id="apple" type="host">*.cdn-apple.com</value>
+                <value id="polyfill" type="host">cdn.polyfill.io</value>
+                <value id="pay-google" type="host">pay.google.com</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+            </values>
+        </policy>
+        <policy id="img-src">
+            <values>
+                <value id="revolut" type="host">*.revolut.com</value>
+                <value id="all-google" type="host">*.google.com</value>
+                <value id="apple" type="host">*.cdn-apple.com</value>
+                <value id="google" type="host">google.com</value>
+                <value id="polyfill" type="host">cdn.polyfill.io</value>
+                <value id="pay-google" type="host">pay.google.com</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>

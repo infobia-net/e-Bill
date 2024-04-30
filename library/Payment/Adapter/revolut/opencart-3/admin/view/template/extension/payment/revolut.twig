@@ -1,0 +1,299 @@
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="pull-right">
+        <button
+          type="submit"
+          form="form-revolut"
+          data-toggle="tooltip"
+          title="{{ button_save }}"
+          class="btn btn-primary"
+        >
+          <i class="fa fa-save"></i>
+        </button>
+        <a href="{{ cancel }}" data-toggle="tooltip" title="{{ button_cancel }}" class="btn btn-default"
+          ><i class="fa fa-reply"></i
+        ></a>
+      </div>
+      <h1>{{ heading_title }}</h1>
+      <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+        <li>
+          <a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="alert alert-info">{{ text_welcome }}</div>
+    {% if error_webhook_not_setup %}
+    <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> {{ error_webhook_not_setup }}</div>
+    {% endif %} {% if error_order_statuses %}
+    <div class="alert alert-warning"><i class="fa fa-exclamation-circle"></i> {{ error_order_statuses }}</div>
+    {% endif %} {% if success %}
+    <div class="alert alert-success">
+      <i class="fa fa-exclamation-circle"></i> {{ success }}
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    {% endif %}
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-pencil"></i> {{ text_edit }}</h3>
+      </div>
+      <div class="panel-body">
+        <form
+          action="{{ action }}"
+          method="post"
+          enctype="multipart/form-data"
+          id="form-revolut"
+          class="form-horizontal"
+        >
+          <ul class="nav nav-tabs">
+            <li class="active">
+              <a href="#tab-general" data-toggle="tab">{{ tab_general }}</a>
+            </li>
+            <li>
+              <a href="#tab-status" data-toggle="tab">{{ tab_order_status }}</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="tab-general">
+              <div class="form-group required">
+                <label class="col-sm-2 control-label api-key-label" for="entry-email">{{ entry_api_key }}</label>
+                <div class="col-sm-10">
+                  <input
+                    type="text"
+                    name="payment_revolut_api_key"
+                    value="{{ payment_revolut_api_key }}"
+                    placeholder="{{ entry_api_key }}"
+                    id="entry-api-key"
+                    class="form-control"
+                  />
+                  {% if error_api_key %}
+                  <div class="text-danger">{{ error_api_key }}</div>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-live-test"
+                  ><span data-toggle="tooltip" title="{{ help_test }}">{{ entry_test }}</span></label
+                >
+                <div class="col-sm-10">
+                  <select name="payment_revolut_test" id="input-live-test" class="form-control">
+                    {% if payment_revolut_test %}
+                    <option value="1" selected="selected">{{ text_yes }}</option>
+                    <option value="0">{{ text_no }}</option>
+                    {% else %}
+                    <option value="1">{{ text_yes }}</option>
+                    <option value="0" selected="selected">{{ text_no }}</option>
+                    {% endif %}
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-upsell"><span data-toggle="tooltip" title="{{ help_upsell }}">{{ entry_upsell }}</span></label>
+                <div class="col-sm-10">
+                  <select name="payment_revolut_upsell_banner_enabled" id="input-upsell" class="form-control">
+                    {% if payment_revolut_upsell_banner_enabled %}
+                    <option value="1" selected="selected">{{ text_enabled }}</option>
+                    <option value="0">{{ text_disabled }}</option>
+                    {% else %}
+                    <option value="1">{{ text_enabled }}</option>
+                    <option value="0" selected="selected">{{ text_disabled }}</option>
+                    {% endif %}
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-capture-mode"
+                  ><span data-toggle="tooltip" title="{{ help_capture_mode }}">{{ entry_capture_mode }}</span></label
+                >
+                <div class="col-sm-10">
+                  <select name="payment_revolut_capture_mode" id="input-capture-mode" class="form-control">
+                    {% if payment_revolut_capture_mode == 'AUTOMATIC' %}
+                    <option value="AUTOMATIC" selected="selected">{{ text_automatic }}</option>
+                    {% else %}
+                    <option value="AUTOMATIC">{{ text_automatic }}</option>
+                    {% endif %} {% if payment_revolut_capture_mode == 'MANUAL' %}
+                    <option value="MANUAL" selected="selected">{{ text_manual }}</option>
+                    {% else %}
+                    <option value="MANUAL">{{ text_manual }}</option>
+                    {% endif %}
+                  </select>
+                </div>
+              </div>
+              <div class="form-group"{{ payment_revolut_capture_mode == "MANUAL" ? "" : ' style="display:none;"' }}>
+              <label class="col-sm-2 control-label" for="input-capture-status"
+                ><span data-toggle="tooltip" title="{{ help_capture_status }}">{{ entry_capture_status }}</span></label
+              >
+              <div class="col-sm-10">
+                <select name="payment_revolut_capture_status_id" id="input-capture-status" class="form-control">
+                  {% for order_status in order_statuses %} {% if order_status.order_status_id ==
+                  payment_revolut_capture_status_id %}
+                  <option value="{{ order_status.order_status_id }}" selected="selected">
+                    {{ order_status.name }}
+                  </option>
+                  {% else %}
+                  <option value="{{ order_status.order_status_id }}">{{ order_status.name }}</option>
+                  {% endif %} {% endfor %}
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="input-status">{{ entry_status }}</label>
+              <div class="col-sm-10">
+                <select name="payment_revolut_status" id="input-status" class="form-control">
+                  {% if payment_revolut_status %}
+                  <option value="1" selected="selected">{{ text_enabled }}</option>
+                  <option value="0">{{ text_disabled }}</option>
+                  {% else %}
+                  <option value="1">{{ text_enabled }}</option>
+                  <option value="0" selected="selected">{{ text_disabled }}</option>
+                  {% endif %}
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane" id="tab-status">
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="input-cancelled-status">{{ entry_cancelled_status }}</label>
+              <div class="col-sm-10">
+                <select name="payment_revolut_cancelled_status_id" id="input-cancelled-status" class="form-control">
+                  {% for order_status in order_statuses %} {% if order_status.order_status_id ==
+                  payment_revolut_cancelled_status_id %}
+                  <option value="{{ order_status.order_status_id }}" selected="selected">
+                    {{ order_status.name }}
+                  </option>
+                  {% else %}
+                  <option value="{{ order_status.order_status_id }}">{{ order_status.name }}</option>
+                  {% endif %} {% endfor %}
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="input-authorised-status">{{ entry_authorised_status }}</label>
+              <div class="col-sm-10">
+                <select name="payment_revolut_authorised_status_id" id="input-completed-status" class="form-control">
+                  {% for order_status in order_statuses %} {% if order_status.order_status_id ==
+                  payment_revolut_authorised_status_id %}
+                  <option value="{{ order_status.order_status_id }}" selected="selected">
+                    {{ order_status.name }}
+                  </option>
+                  {% else %}
+                  <option value="{{ order_status.order_status_id }}">{{ order_status.name }}</option>
+                  {% endif %} {% endfor %}
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="input-completed-status">{{ entry_completed_status }}</label>
+              <div class="col-sm-10">
+                <select name="payment_revolut_completed_status_id" id="input-completed-status" class="form-control">
+                  {% for order_status in order_statuses %} {% if order_status.order_status_id ==
+                  payment_revolut_completed_status_id %}
+                  <option value="{{ order_status.order_status_id }}" selected="selected">
+                    {{ order_status.name }}
+                  </option>
+                  {% else %}
+                  <option value="{{ order_status.order_status_id }}">{{ order_status.name }}</option>
+                  {% endif %} {% endfor %}
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="input-processing-status">{{ entry_processing_status }}</label>
+              <div class="col-sm-10">
+                <select name="payment_revolut_processing_status_id" id="input-expired-status" class="form-control">
+                  {% for order_status in order_statuses %} {% if order_status.order_status_id ==
+                  payment_revolut_processing_status_id %}
+                  <option value="{{ order_status.order_status_id }}" selected="selected">
+                    {{ order_status.name }}
+                  </option>
+                  {% else %}
+                  <option value="{{ order_status.order_status_id }}">{{ order_status.name }}</option>
+                  {% endif %} {% endfor %}
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="input-failed-status">{{ entry_failed_status }}</label>
+              <div class="col-sm-10">
+                <select name="payment_revolut_failed_status_id" id="input-failed-status" class="form-control">
+                  {% for order_status in order_statuses %} {% if order_status.order_status_id ==
+                  payment_revolut_failed_status_id %}
+                  <option value="{{ order_status.order_status_id }}" selected="selected">
+                    {{ order_status.name }}
+                  </option>
+                  {% else %}
+                  <option value="{{ order_status.order_status_id }}">{{ order_status.name }}</option>
+                  {% endif %} {% endfor %}
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="input-pending-status">{{ entry_pending_status }}</label>
+              <div class="col-sm-10">
+                <select name="payment_revolut_pending_status_id" id="input-pending-status" class="form-control">
+                  {% for order_status in order_statuses %} {% if order_status.order_status_id ==
+                  payment_revolut_pending_status_id %}
+                  <option value="{{ order_status.order_status_id }}" selected="selected">
+                    {{ order_status.name }}
+                  </option>
+                  {% else %}
+                  <option value="{{ order_status.order_status_id }}">{{ order_status.name }}</option>
+                  {% endif %} {% endfor %}
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="input-refunded-status">{{ entry_refunded_status }}</label>
+              <div class="col-sm-10">
+                <select name="payment_revolut_refunded_status_id" id="input-refunded-status" class="form-control">
+                  {% for order_status in order_statuses %} {% if order_status.order_status_id ==
+                  payment_revolut_refunded_status_id %}
+                  <option value="{{ order_status.order_status_id }}" selected="selected">
+                    {{ order_status.name }}
+                  </option>
+                  {% else %}
+                  <option value="{{ order_status.order_status_id }}">{{ order_status.name }}</option>
+                  {% endif %} {% endfor %}
+                </select>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  var capture_mode_select = $("select[name='payment_revolut_capture_mode']");
+
+  capture_mode_select.on("change", function () {
+    if (capture_mode_select.val() == "MANUAL") {
+      $("#input-capture-status").parent().parent().show();
+    } else {
+      $("#input-capture-status").parent().parent().hide();
+    }
+  });
+
+  if($('#input-live-test').val() == '1'){
+    $('.api-key-label').text('Sandbox API secret key');
+  }else{
+    $('.api-key-label').text('API secret key');
+  }
+
+  $('#input-live-test').change(function(){
+    if($(this).val() == '1'){
+      $('.api-key-label').text('Sandbox API secret key');
+    }else{
+      $('.api-key-label').text('API secret key');
+    }
+    
+  });
+</script>
+{{ footer }}

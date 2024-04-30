@@ -1,0 +1,53 @@
+<div
+  class="payment-method"
+  data-bind="css: {'_active': (getCode() == isChecked())}"
+>
+  <div class="payment-method-title field choice">
+    <input
+      type="radio"
+      name="payment[method]"
+      class="radio"
+      data-bind="event: {change: selectRevolutPaymentMethod}, attr: {'id': getCode()}, value: getCode(), checked: isChecked, click: selectPaymentMethod, visible: isRadioButtonVisible()"
+    />
+    <label data-bind="attr: {'for': getCode()}" class="label">
+      <span data-bind="text: paymentOptionName()"></span>
+    </label>
+
+    <img
+      class="revolut-apple-pay-logo"
+      style="width: 38px; margin: 0px 8px"
+      data-bind="attr: { src: require.toUrl('Revolut_Payment/images/apple-pay-logo.svg') }"
+    />
+    <img
+      class="revolut-google-pay-logo"
+      style="width: 38px; margin: 0px 8px"
+      data-bind="attr: { src: require.toUrl('Revolut_Payment/images/g-pay-logo.png') }"
+    />
+  </div>
+  <div class="payment-method-content">
+    <!-- ko foreach: getRegion('messages') -->
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <!--/ko-->
+    <div class="payment-method-billing-address">
+      <!-- ko foreach: $parent.getRegion(getBillingAddressFormName()) -->
+      <!-- ko template: getTemplate() --><!-- /ko -->
+      <!--/ko-->
+    </div>
+
+    <div
+      id="revolutPaymentRequestForm"
+      data-bind="afterRender: createRevolutForm"
+    >
+      <div id="revolut-payment-request-element"></div>
+    </div>
+
+    <!--     Handle error       -->
+    <p id="payment-request-error-widget"></p>
+
+    <div class="checkout-agreements-block">
+      <!-- ko foreach: $parent.getRegion('before-place-order') -->
+      <!-- ko template: getTemplate() --><!-- /ko -->
+      <!--/ko-->
+    </div>
+  </div>
+</div>

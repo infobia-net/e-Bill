@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<include xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_include.xsd">
+    <group id="revolut_payment_request" translate="label comment" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="1">
+        <label>Apple Pay / Google Pay</label>
+        <field id="revolut_payment_request_active" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Enable</label>
+            <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+            <config_path>payment/revolut_payment_request/active</config_path>
+        </field>
+        <field id="payment_request_button_theme" translate="label" type="select" sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Payment Request Button Theme</label>
+            <source_model>Revolut\Payment\Model\Source\PaymentRequestButton\Theme</source_model>
+            <config_path>payment/revolut_payment_request/theme</config_path>
+        </field>
+        <field id="payment_request_button_action" translate="label" type="select" sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Payment Request Button Action</label>
+            <source_model>Revolut\Payment\Model\Source\PaymentRequestButton\Action</source_model>
+            <config_path>payment/revolut_payment_request/action</config_path>
+        </field>
+         <field id="payment_request_button_radius" translate="label" type="select" sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Payment Request Button Radius</label>
+            <source_model>Revolut\Payment\Model\Source\PaymentRequestButton\Radius</source_model>
+            <config_path>payment/revolut_payment_request/radius</config_path>
+        </field>
+         <field id="payment_request_button_size" translate="label" type="select" sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Payment Request Button Size</label>
+            <source_model>Revolut\Payment\Model\Source\PaymentRequestButton\Size</source_model>
+            <config_path>payment/revolut_payment_request/size</config_path>
+        </field>
+        <field id="payment_request_button_locations" translate="label" type="multiselect" sortOrder="81" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Locations</label>
+            <can_be_empty>1</can_be_empty>
+            <source_model>Revolut\Payment\Model\Source\PaymentRequestButton\Locations</source_model>
+            <config_path>payment/revolut_payment_request/locations</config_path>
+            <comment>Select where you would like Payment Request Buttons to be displayed.</comment>
+        </field>
+    </group>
+</include>

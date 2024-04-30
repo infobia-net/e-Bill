@@ -1,0 +1,75 @@
+<h2>{{ text_payment_info }}</h2>
+<table class="table table-striped table-bordered">
+  <tr>
+    <td>{{ text_reference }}</td>
+    <td>{{ revolut_order.order_id }}</td>
+  </tr>
+  <tr>
+    <td>{{ text_id }}</td>
+    <td>{{ revolut_order.revolut_id }}</td>
+  <tr>
+    <td> {{text_revolut_order_state}} </td>
+    <td>{{ revolut_order.state }} </td>
+  </tr>
+  <tr>
+    <td>{{ text_order_total }}</td>
+    <td>{{ revolut_order.order_amount }} {{ revolut_order.order_currency }}</td>
+  </tr>
+  {% if revolut_order.state == 'COMPLETED' %}
+  <tr>
+    <td>{{ text_refunded_total }}</td>
+    <td>{{ revolut_order.refunded_amount }} {{ revolut_order.order_currency }}</td>
+  </tr>
+    <tr>
+    <td>{{ text_refundable_total }}</td>
+    <td>{{ revolut_order.refundable_amount }} {{ revolut_order.order_currency }}</td>
+  </tr>
+{% endif %}
+  {% if revolut_order.is_refundable_order %}
+  <tr>
+    <td>{{ text_refund }}</td>
+    <td>
+      <input type="number" id="refund-amount" name="refund_amount" placeholder="{{ text_refund_amount }}" max="{{ revolut_order.refundable_amount }}" class="form-control" />
+      <br />
+      <button class="button btn btn-primary" id="button-refund">{{ button_refund }}</button> 
+    </td>
+  </tr>
+  {% endif %}
+</table>
+<script type="text/javascript">
+
+const refundable_amount = parseFloat("{{ revolut_order.refundable_amount }}")
+
+$('#button-refund').on('click', function () {
+    if (confirm('{{ text_confirm_refund }}')) {
+        if (!$('#refund-amount').val() || parseFloat($('#refund-amount').val()) > refundable_amount) {
+            alert(`Please enter a valid refund amount! Refundable amount is: ${refundable_amount}`);
+            return false;
+        } 
+
+        $.ajax({
+                url: 'index.php?route=extension/payment/revolut/refund&order_id={{ order_id }}&user_token={{ user_token }}',
+                type: 'post',
+                data: $('#refund-amount'),
+                dataType: 'json',
+                cache: false,
+                beforeSend: function() {
+                    $('#button-refund').button('loading');
+                    $('#button-refund').prop('disabled', true);
+                },
+                complete: function() {
+                    $('#button-refund').button('reset');
+                    $('#button-refund').prop('disabled', false);
+                },
+                success: function(json) {
+                    if (json['success']) {
+                        alert(json['success']);
+                        window.location.reload();
+                    } else if (json['error']) {
+                        alert(json['error']);
+                    }
+                }
+            });
+    }
+});
+</script>

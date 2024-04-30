@@ -1,0 +1,14 @@
+<div id="revolut-reward-banner-widget"></div>
+
+<script>
+    window.revolutBannerConfig  = <?= $block->getOrderDetails() ?>;    
+    if(window.revolutBannerConfig && window.revolutBannerConfig.isRewardBannerActive){
+        require([
+            'Revolut_Payment/js/view/reward/banner'
+            ], 
+        function(RevolutRewardBanner)
+        {
+            RevolutRewardBanner.init();
+        });
+    }
+</script>

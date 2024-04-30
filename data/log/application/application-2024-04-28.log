@@ -1,0 +1,51 @@
+[28-Apr-2024 00:02:05 UTC] application.INFO: Installed new payment gateway ClientBalance ["ClientBalance"] 
+[28-Apr-2024 00:02:12 UTC] application.INFO: Installed new payment gateway Stripe ["Stripe"] 
+[28-Apr-2024 00:02:15 UTC] application.INFO: Installed new payment gateway Bitcart ["Bitcart"] 
+[28-Apr-2024 00:02:18 UTC] application.INFO: Installed new payment gateway Mollie ["Mollie"] 
+[28-Apr-2024 00:02:21 UTC] application.INFO: Installed new payment gateway Razorpay ["Razorpay"] 
+[28-Apr-2024 00:02:24 UTC] application.INFO: Installed new payment gateway UddoktaPay ["UddoktaPay"] 
+[28-Apr-2024 00:02:42 UTC] application.INFO: Removed payment gateway 9 [9] 
+[28-Apr-2024 00:02:49 UTC] application.INFO: Updated payment gateway ClientBalance ["ClientBalance"] 
+[28-Apr-2024 00:03:06 UTC] application.INFO: Updated payment gateway Mollie ["Mollie"] 
+[28-Apr-2024 00:03:19 UTC] application.INFO: Updated payment gateway Razorpay ["Razorpay"] 
+[28-Apr-2024 00:03:32 UTC] application.INFO: Updated payment gateway Stripe ["Stripe"] 
+[28-Apr-2024 00:04:03 UTC] application.INFO: Removed payment gateway 10 [10] 
+[28-Apr-2024 00:05:05 UTC] application.INFO: Updated payment gateway Custom ["Custom"] 
+[28-Apr-2024 00:27:07 UTC] application.INFO: Created Proxmox server 1 ["1"] 
+[28-Apr-2024 00:29:37 UTC] application.INFO: Created Proxmox server 2 ["2"] 
+[28-Apr-2024 00:32:28 UTC] application.INFO: Created Proxmox server 1 ["1"] 
+[28-Apr-2024 00:38:29 UTC] application.INFO: Created Proxmox server 2 ["2"] 
+[28-Apr-2024 00:40:49 UTC] application.INFO: Created Proxmox server 3 ["3"] 
+[28-Apr-2024 00:43:25 UTC] application.INFO: Created Proxmox server 4 ["4"] 
+[28-Apr-2024 00:50:36 UTC] application.INFO: Created Proxmox server 5 ["5"] 
+[28-Apr-2024 00:51:36 UTC] application.INFO: Created Proxmox server 6 ["6"] 
+[28-Apr-2024 00:54:42 UTC] application.INFO: Created Proxmox server 7 ["7"] 
+[28-Apr-2024 00:56:10 UTC] application.INFO: Created Proxmox server 8 ["8"] 
+[28-Apr-2024 12:31:26 UTC] application.INFO: Create VM config Template 1 ["1"] 
+[28-Apr-2024 13:03:54 UTC] application.INFO: Admin logged out  
+[28-Apr-2024 13:05:04 UTC] application.INFO: Changed staff member 3 permissions [3] 
+[28-Apr-2024 13:05:07 UTC] application.INFO: Admin logged out  
+[28-Apr-2024 13:06:02 UTC] application.INFO: Admin logged out  
+[28-Apr-2024 14:15:19 UTC] application.INFO: Admin logged out  
+[28-Apr-2024 14:15:46 UTC] application.INFO: Admin logged out  
+[28-Apr-2024 14:16:20 UTC] application.INFO: Changed staff member 3 permissions [3] 
+[28-Apr-2024 14:16:26 UTC] application.INFO: Admin logged out  
+[28-Apr-2024 14:16:35 UTC] application.INFO: Admin logged out  
+[28-Apr-2024 14:20:07 UTC] application.INFO: Admin logged out  
+[28-Apr-2024 14:37:51 UTC] application.INFO: Admin logged out  
+[28-Apr-2024 14:59:29 UTC] application.INFO: Admin logged out  
+[28-Apr-2024 15:22:14 UTC] application.INFO: Admin logged out  
+[28-Apr-2024 15:29:38 UTC] application.INFO: Admin logged out  
+[28-Apr-2024 16:45:50 UTC] application.INFO: Created Proxmox server 9 ["9"] 
+[28-Apr-2024 16:51:05 UTC] application.INFO: Created Proxmox server 10 ["10"] 
+[28-Apr-2024 16:56:21 UTC] application.INFO: Created Proxmox server 11 ["11"] 
+[28-Apr-2024 16:58:02 UTC] application.INFO: Created Proxmox server 12 ["12"] 
+[28-Apr-2024 16:58:47 UTC] application.INFO: Created Proxmox server 13 ["13"] 
+[28-Apr-2024 17:01:05 UTC] application.INFO: Created Proxmox server 14 ["14"] 
+[28-Apr-2024 17:02:20 UTC] application.INFO: Created Proxmox server 15 ["15"] 
+[28-Apr-2024 17:08:12 UTC] application.INFO: Created Proxmox server 16 ["16"] 
+[28-Apr-2024 17:10:04 UTC] application.INFO: Created Proxmox server 17 ["17"] 
+[28-Apr-2024 17:11:45 UTC] application.INFO: Created Proxmox server 18 ["18"] 
+[28-Apr-2024 17:15:58 UTC] application.INFO: Created Proxmox server 19 ["19"] 
+[28-Apr-2024 17:17:33 UTC] application.INFO: Created Proxmox server 20 ["20"] 
+[28-Apr-2024 17:51:52 UTC] application.INFO: Created Proxmox server 21 ["21"] 

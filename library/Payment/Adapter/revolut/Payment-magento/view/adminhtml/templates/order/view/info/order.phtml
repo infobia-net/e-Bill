@@ -1,0 +1,46 @@
+<?php
+    /** @var \Revolut\Payment\Block\Adminhtml\Order\View\Info\Order $block */
+    $orderId = $block->getOrderId();
+    $paymentInfo = $block->getPaymentInfo();
+?>
+<table id="revolut-order-information" class="admin__table-secondary order-account-information-table">
+    <tbody>
+        <?php if ($orderId) {?>
+        <tr>
+            <th>Revolut Order ID</th>
+            <td><?=$orderId?></td>
+        </tr>
+        <?php }?>
+
+        <?php if ($paymentInfo) {?>
+            <tr>
+                <th>Card Brand</th>
+                <td><?=isset($paymentInfo['card_brand']) ? $paymentInfo['card_brand'] : '' ?></td>
+            </tr>
+            <tr>
+                <th>Card Country</th>
+                <td><?=isset($paymentInfo['card_country']) ? $paymentInfo['card_country'] : '' ?></td>
+            </tr>
+            <tr>
+                <th>Cardholder Name</th>
+                <td><?=isset($paymentInfo['cardholder_name']) ? $paymentInfo['cardholder_name'] : '' ?></td>
+            </tr>
+            <tr>
+                <th>Card Last Four</th>
+                <td><?=isset($paymentInfo['card_last_four']) ? $paymentInfo['card_last_four'] : '' ?></td>
+            </tr>
+            <tr>
+                <th>Card Expiry</th>
+                <td><?=isset($paymentInfo['card_expiry']) ? $paymentInfo['card_expiry'] : '' ?></td>
+            </tr>
+            <tr>
+                <th>Card Bin</th>
+                <td><?=isset($paymentInfo['card_bin']) ? $paymentInfo['card_bin'] : '' ?></td>
+            </tr>
+            <tr>
+                <th>Funding</th>
+                <td><?=isset($paymentInfo['funding']) ? $paymentInfo['funding'] : '' ?></td>
+            </tr>
+        <?php }?>
+    </tbody>
+</table>

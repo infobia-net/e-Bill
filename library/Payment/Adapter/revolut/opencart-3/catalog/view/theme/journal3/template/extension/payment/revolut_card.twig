@@ -1,0 +1,193 @@
+{% if not error %}
+<div>
+<script>
+  !(function (e, o, t) {
+    e[t] = function (n, r) {
+      var c = {
+          sandbox: "https://sandbox-merchant.revolut.com/embed.js",
+          prod: "https://merchant.revolut.com/embed.js",
+          dev: "https://merchant.revolut.codes/embed.js",
+        },
+        d = o.createElement("script");
+      (d.id = "revolut-checkout"), (d.src = c[r] || c.prod), (d.async = !0), o.head.appendChild(d);
+      var s = {
+        then: function (r, c) {
+          (d.onload = function () {
+            r(e[t](n));
+          }),
+            (d.onerror = function () {
+              o.head.removeChild(d), c && c(new Error(t + " is failed to load"));
+            });
+        },
+      };
+      return "function" == typeof Promise ? Promise.resolve(s) : s;
+    };
+  })(window, document, "RevolutCheckout");
+</script>
+{% if testmode %}
+<div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> {{ text_testmode }}</div>
+{% endif %} {% if not payment_view %}
+<h4>{{ text_card_details }}</h4>
+<div class="well" style="background-color:{{ payment_revolut_card_background_colour }};">
+  <div id="revolut-card-field" ></div>
+  {{ svg_logo }}
+  <div id="revolut-card-error" class="text-danger text-center"></div>
+</div>
+<div id="revolut-upsell-banner"></div>
+{% endif %}
+<div class="text-center">
+  <button  type="button" id="button-confirm" class="btn btn-primary">{{ button_confirm }}</button>
+  {% if payment_view %}
+  <br />
+  {{ svg_logo }}
+  {% endif %}
+</div>
+</div>
+
+<script type="text/javascript">
+  const RC = RevolutCheckout('{{ public_id }}', '{{ mode }}');
+  let instanceUpsell = null;
+
+  {% if payment_view %}
+  $('#button-confirm').on('click', function() {
+      $('#button-confirm, #quick-checkout-button-confirm').button('loading');
+
+      RC.then(function (instance) {
+          var popup = instance.payWithPopup({
+              name: '{{ name }}',
+              email: '{{ email }}',
+              phone: '{{ phone }}',
+              billingAddress: {
+                  countryCode: '{{ countryCode }}',
+                  region: '{{ region }}',
+                  city: '{{ city }}',
+                  streetLine1: '{{ streetLine1 }}',
+                  streetLine2: '{{ streetLine2 }}',
+                  postcode: '{{ postcode }}'
+              },
+              onSuccess() {
+                  completeOrder();
+              },
+              onError(message) {
+                  alert(message);
+                  popup.destroy();
+                  $('#button-confirm, #quick-checkout-button-confirm').button('reset');
+                  loader('.quick-checkout-wrapper', false);
+              },
+              onCancel() {
+                  popup.destroy();
+                  $('#button-confirm, #quick-checkout-button-confirm').button('reset');
+              }
+          });
+      });
+  });
+  {% else %}
+  RC.then(function (instance) {
+      var card = instance.createCardField({
+          hidePostcodeField: true,
+          target: document.getElementById('revolut-card-field'),
+          styles: {
+              default: {
+                  color: '{{ payment_revolut_card_font_colour }}',
+                  "::placeholder": {
+                      color: '{{ payment_revolut_card_font_colour }}',
+                  }
+              },
+          },
+          onSuccess() {
+              completeOrder();
+          },
+          onValidation(errors) {
+              if (errors.length) {
+                  $('#button-confirm, #quick-checkout-button-confirm').button('reset');
+                  $('#revolut-card-error').html("");
+                  $('#revolut-card-error').append(errors[0].message);
+                  loader('.quick-checkout-wrapper', false);
+              } else {
+                  $('#revolut-card-error').html("");
+              }
+          },
+          onError(message) {
+              alert(message);
+              $('#button-confirm, #quick-checkout-button-confirm').button('reset');
+              loader('.quick-checkout-wrapper', false);
+          },
+          onCancel() {
+              $('#button-confirm, #quick-checkout-button-confirm').button('reset');
+          }
+      });
+
+      $('#button-confirm, #quick-checkout-button-confirm').on('click', function() {
+          $('#button-confirm, #quick-checkout-button-confirm').button('loading');
+          card.submit({
+              name: "{{ name | escape  }}",
+              email: "{{ email | escape  }}",
+              phone: "{{ phone | escape  }}",
+              billingAddress: {
+                  countryCode: "{{ countryCode | escape  }}",
+                  region: "{{ region | escape  }}",
+                  city: "{{ city | escape  }}",
+                  streetLine1: "{{ streetLine1 | escape  }}",
+                  streetLine2: "{{ streetLine2 | escape  }}",
+                  postcode: "{{ postcode | escape  }}"
+              }
+          });
+      });
+  });
+  {% endif %}
+  
+  {% if payment_revolut_upsell_banner_enabled %}
+  function initCheckoutUpsellBanner() {
+    let upsellBannerElement = document.getElementById("revolut-upsell-banner");
+    if (instanceUpsell != null) {
+      instanceUpsell.destroy();
+    }
+    instanceUpsell = RevolutUpsell({
+      locale: 'auto',
+      mode: '{{ mode }}',
+      publicToken: '{{ public_token }}',
+      channel : 'opencart'
+    });
+    instanceUpsell.cardGatewayBanner.mount(upsellBannerElement, {
+      orderToken: '{{ public_id }}',
+    });
+  }
+
+  var upsellScript = document.createElement("script");
+  upsellScript.src = "{{upsell_embed_script}}"
+  upsellScript.onload = function() {
+    initCheckoutUpsellBanner()
+  };
+  document.head.appendChild(upsellScript);
+{% endif %}
+  function completeOrder() {
+      $.ajax({
+          url : 'index.php?route=extension/payment/revolut_card/completeOrder',
+          type: 'post',
+          data: {'public_id': '{{ public_id }}'},
+          dataType: 'json',
+          success: function(json) {
+              if (json && json['success']) {
+                  {% if payment_view %}
+                  setTimeout(function() {
+                      loader('.quick-checkout-wrapper', true);
+                      location = json['redirect'];
+                  }, 1500);
+                  {% else %}
+                  loader('.quick-checkout-wrapper', true);
+                  location = json['redirect'];
+                  {% endif %}
+              } else if (json && json['error']) {
+                  alert(json['error']);
+                  $('#button-confirm, #quick-checkout-button-confirm').button('reset');
+              } else {
+                  alert('{{ error_unknown_ajax }}');
+                  $('#button-confirm, #quick-checkout-button-confirm').button('reset');
+              }
+          }
+      });
+  }
+</script>
+{% else %}
+<div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> {{ error }}</div>
+{% endif %}

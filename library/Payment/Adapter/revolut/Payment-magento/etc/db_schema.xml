@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="revolut_payment_order_details" resource="default" engine="innodb" comment="Revolut Payment Order(Transaction Detail)">
+        <column xsi:type="int" name="id" unsigned="true" nullable="false" identity="true" comment="ID"/>
+        <column xsi:type="int" name="customer_id" unsigned="true" nullable="false" comment="Customer Id"/>
+        <column xsi:type="int" name="quote_id" unsigned="true" nullable="false" comment="Quote Id"/>
+        <column xsi:type="int" name="store_id" unsigned="true" nullable="false" comment="Store Id"/>
+        <column xsi:type="varchar" name="revolut_order_id" nullable="false" comment="Revolut Order Id"/>
+        <column xsi:type="varchar" name="public_id" nullable="false" comment="Public Id"/>
+        <column xsi:type="varchar" name="increment_order_id" nullable="false" comment="Increment Order Id"/>
+        <column xsi:type="varchar" name="currency" nullable="false" comment="Currency"/>
+        <column xsi:type="float" name="order_amount" nullable="false" comment="Order Amount"/>
+        <column xsi:type="boolean" name="is_fast_checkout" default="false" comment="Fast Checkout Payment"/>
+        <column xsi:type="timestamp" name="created_at" comment="Created At" default="CURRENT_TIMESTAMP"/>
+        <column xsi:type="timestamp" name="updated_at" comment="Updated At" default="CURRENT_TIMESTAMP"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+        <index referenceId="index_revolut_order_id" indexType="btree">
+            <column name="revolut_order_id"/>
+        </index>
+        <index referenceId="index_revolut_public_id" indexType="btree">
+            <column name="public_id"/>
+        </index>
+        <index referenceId="index_revolut_quote_id" indexType="btree">
+            <column name="quote_id"/>
+            <column name="store_id"/>
+        </index>
+    </table>
+    <table name="revolut_webhook_request" resource="default" engine="innodb">
+        <column xsi:type="int" name="id" unsigned="true" nullable="false" identity="true" comment="ID"/>
+        <column xsi:type="varchar" name="public_id" nullable="false" comment="Public Id"/>
+        <column xsi:type="timestamp" name="created_at" comment="Created At" default="CURRENT_TIMESTAMP"/>
+        <column xsi:type="timestamp" name="updated_at" comment="Updated At" default="CURRENT_TIMESTAMP"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+        <constraint xsi:type="unique" referenceId="unique_revolut_request_order_public_id">
+            <column name="public_id"/>
+        </constraint>
+    </table>
+</schema>

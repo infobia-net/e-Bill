@@ -1,0 +1,35 @@
+$flag-icons-path: "../../../../../node_modules/flag-icons/flags";
+
+@import "~flag-icons/sass/variables";
+
+
+.flag {
+    position: relative;
+    display: inline-block;
+    height: 1em;
+    aspect-ratio: 1.33333;
+    background: no-repeat center/cover;
+    box-shadow: $flag-box-shadow;
+    border-radius: $flag-border-radius;
+    vertical-align: bottom;
+
+    &.flag-country-np {
+        box-shadow: none;
+        border-radius: 0;
+    }
+}
+
+@mixin flag-icon($country) {
+    .flag-country-#{$country} {
+        background-image: url(#{$flag-icons-path}#{$flag-icons-rect-path}/#{$country}.svg);
+    }
+}
+
+/* stylelint-disable-next-line no-invalid-position-at-import-rule */
+@import "~flag-icons/sass/flag-icons-list";
+
+@each $flag-size, $size in $avatar-sizes {
+    .flag-#{$flag-size} {
+        height: map-get($size, size);
+    }
+}

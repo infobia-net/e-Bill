@@ -1,0 +1,362 @@
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #1 [1] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #2 [2] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #3 [3] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #4 [4] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #5 [5] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #6 [6] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #7 [7] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #8 [8] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #9 [9] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #10 [10] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #11 [11] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #12 [12] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #13 [13] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #14 [14] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #15 [15] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #16 [16] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #17 [17] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #18 [18] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #19 [19] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #20 [20] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #21 [21] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #22 [22] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #23 [23] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #24 [24] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #25 [25] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #26 [26] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #27 [27] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #28 [28] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #29 [29] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #30 [30] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #31 [31] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #32 [32] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #33 [33] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #34 [34] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #35 [35] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #36 [36] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #37 [37] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #38 [38] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #39 [39] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #40 [40] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #41 [41] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #42 [42] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #43 [43] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #44 [44] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #45 [45] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #46 [46] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #47 [47] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Added new  email template #48 [48] 
+[25-Apr-2024 20:29:33 UTC] application.INFO: Generated email templates for installed extensions  
+[25-Apr-2024 20:32:41 UTC] application.INFO: Changed default theme  
+[25-Apr-2024 20:40:44 UTC] application.INFO: Installed new domain registrar OpenSRS ["OpenSRS"] 
+[25-Apr-2024 20:47:41 UTC] application.INFO: Updated domain registrar OpenSRS configuration ["OpenSRS"] 
+[25-Apr-2024 20:56:34 UTC] application.INFO: Installed new domain registrar Email ["Email"] 
+[25-Apr-2024 20:56:35 UTC] application.INFO: Installed new domain registrar Email ["Email"] 
+[25-Apr-2024 20:56:37 UTC] application.INFO: Installed new domain registrar Internetbs ["Internetbs"] 
+[25-Apr-2024 20:56:38 UTC] application.INFO: Installed new domain registrar Namecheap ["Namecheap"] 
+[25-Apr-2024 20:56:44 UTC] application.INFO: Installed new domain registrar Resellerid ["Resellerid"] 
+[25-Apr-2024 20:56:45 UTC] application.INFO: Installed new domain registrar Resellerclub ["Resellerclub"] 
+[25-Apr-2024 20:56:45 UTC] application.INFO: Installed new domain registrar Resellbiz ["Resellbiz"] 
+[25-Apr-2024 20:56:46 UTC] application.INFO: Installed new domain registrar OpenSRS ["OpenSRS"] 
+[25-Apr-2024 20:56:48 UTC] application.INFO: Installed new domain registrar Namecheap ["Namecheap"] 
+[25-Apr-2024 20:56:52 UTC] application.INFO: Installed new domain registrar Netearthone ["Netearthone"] 
+[25-Apr-2024 20:57:03 UTC] application.INFO: Copied domain registrar Email ["Email"] 
+[25-Apr-2024 20:57:38 UTC] application.INFO: Removed domain registrar Email ["Email"] 
+[25-Apr-2024 20:57:43 UTC] application.INFO: Removed domain registrar Email ["Email"] 
+[25-Apr-2024 20:57:49 UTC] application.INFO: Removed domain registrar Email (Copy) ["Email (Copy)"] 
+[25-Apr-2024 20:58:29 UTC] application.INFO: Removed domain registrar Internet.bs ["Internet.bs"] 
+[25-Apr-2024 21:54:56 UTC] application.INFO: Removed domain registrar Internetbs ["Internetbs"] 
+[25-Apr-2024 21:55:02 UTC] application.INFO: Removed domain registrar Namecheap ["Namecheap"] 
+[25-Apr-2024 21:55:07 UTC] application.INFO: Removed domain registrar Namecheap ["Namecheap"] 
+[25-Apr-2024 21:55:12 UTC] application.INFO: Removed domain registrar Netearthone ["Netearthone"] 
+[25-Apr-2024 21:55:18 UTC] application.INFO: Removed domain registrar OpenSRS ["OpenSRS"] 
+[25-Apr-2024 21:55:22 UTC] application.INFO: Removed domain registrar OpenSRS ["OpenSRS"] 
+[25-Apr-2024 21:55:26 UTC] application.INFO: Removed domain registrar Resellbiz ["Resellbiz"] 
+[25-Apr-2024 21:55:30 UTC] application.INFO: Removed domain registrar Reseller Club ["Reseller Club"] 
+[25-Apr-2024 21:55:33 UTC] application.INFO: Removed domain registrar Resellerclub ["Resellerclub"] 
+[25-Apr-2024 21:55:38 UTC] application.INFO: Removed domain registrar Resellerid ["Resellerid"] 
+[25-Apr-2024 21:55:44 UTC] application.INFO: Installed new domain registrar OpenSRS ["OpenSRS"] 
+[25-Apr-2024 21:56:40 UTC] application.INFO: Updated domain registrar OpenSRS configuration ["OpenSRS"] 
+[25-Apr-2024 21:57:05 UTC] application.INFO: Updated top level domain .com [".com"] 
+[25-Apr-2024 22:01:34 UTC] application.INFO: Updated product #1 configuration [1] 
+[25-Apr-2024 22:02:28 UTC] application.INFO: Deleted product #1 [1] 
+[25-Apr-2024 22:02:43 UTC] application.INFO: Created new product #2 ["2"] 
+[25-Apr-2024 22:03:13 UTC] application.INFO: Updated product #2 configuration [2] 
+[25-Apr-2024 22:04:00 UTC] application.INFO: Updated product #2 configuration [2] 
+[25-Apr-2024 22:04:24 UTC] application.INFO: Updated product #2 configuration [2] 
+[25-Apr-2024 22:05:03 UTC] application.INFO: Updated domain registrar OpenSRS configuration ["OpenSRS"] 
+[25-Apr-2024 22:05:12 UTC] application.INFO: Updated domain registrar OpenSRS configuration ["OpenSRS"] 
+[25-Apr-2024 22:09:40 UTC] application.INFO: Updated product #2 configuration [2] 
+[25-Apr-2024 22:10:46 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="protocol">XCP</item>
+    <item key="response_text">Invalid Content-Type</item>
+    <item key="is_success">0</item>
+    <item key="response_code">400</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 22:10:53 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Invalid Content-Type</item>
+    <item key="is_success">0</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">400</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 22:11:05 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Invalid Content-Type</item>
+    <item key="protocol">XCP</item>
+    <item key="is_success">0</item>
+    <item key="response_code">400</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 22:11:52 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Invalid Content-Type</item>
+    <item key="is_success">0</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">400</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 22:26:47 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">0</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">400</item>
+    <item key="response_text">Invalid Content-Type</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 22:29:01 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Invalid Content-Type</item>
+    <item key="response_code">400</item>
+    <item key="protocol">XCP</item>
+    <item key="is_success">0</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 23:50:33 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">500</item>
+    <item key="is_success">0</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 23:51:23 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="is_success">0</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">500</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 23:51:44 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_code">500</item>
+    <item key="is_success">0</item>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 23:51:56 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">0</item>
+    <item key="response_code">500</item>
+    <item key="protocol">XCP</item>
+    <item key="response_text">Unrecognized protocol</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 23:52:05 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">0</item>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">500</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 23:52:20 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="protocol">XCP</item>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="response_code">500</item>
+    <item key="is_success">0</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 23:54:16 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="response_code">500</item>
+    <item key="protocol">XCP</item>
+    <item key="is_success">0</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 23:57:13 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="protocol">XCP</item>
+    <item key="response_code">500</item>
+    <item key="is_success">0</item>
+    <item key="response_text">Unrecognized protocol</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 23:57:20 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_code">500</item>
+    <item key="is_success">0</item>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 23:57:38 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="is_success">0</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">500</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[25-Apr-2024 23:57:51 UTC] application.INFO: Removed product from shopping cart  

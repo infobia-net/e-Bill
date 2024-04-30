@@ -1,0 +1,119 @@
+[29-Apr-2024 01:40:00 UTC] routing.INFO: Unable to find template "mod_page_favicon.ico" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 01:40:00 UTC] routing.INFO: Page /favicon.ico not found  
+[29-Apr-2024 02:44:13 UTC] routing.INFO: Unable to find template "mod_page_version.html.twig" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 02:44:13 UTC] routing.INFO: Page /version not found  
+[29-Apr-2024 03:29:50 UTC] routing.INFO: Unable to find template "mod_page_namingo.slonic.net/themes/infobia/assets/js/jquery-3.7.0.min.js" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 03:29:50 UTC] routing.INFO: Page /namingo.slonic.net/themes/infobia/assets/js/jquery-3.7.0.min.js not found  
+[29-Apr-2024 03:29:50 UTC] routing.INFO: Page /namingo.slonic.net/library/Api/API.js not found  
+[29-Apr-2024 03:29:50 UTC] routing.INFO: Unable to find template "mod_page_namingo.slonic.net/themes/infobia/assets/js/tabler.min.js" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 03:29:50 UTC] routing.INFO: Page /namingo.slonic.net/themes/infobia/assets/js/tabler.min.js not found  
+[29-Apr-2024 03:29:54 UTC] routing.INFO: Unable to find template "mod_page_namingo.slonic.net/themes/infobia/assets/js/bb-jquery.js" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 03:29:54 UTC] routing.INFO: Page /namingo.slonic.net/themes/infobia/assets/js/bb-jquery.js not found  
+[29-Apr-2024 03:30:08 UTC] routing.INFO: Unable to find template "mod_page_namingo.slonic.net/themes/infobia/assets/js/jquery-3.7.0.min.js" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 03:30:08 UTC] routing.INFO: Page /namingo.slonic.net/themes/infobia/assets/js/jquery-3.7.0.min.js not found  
+[29-Apr-2024 03:30:10 UTC] routing.INFO: Unable to find template "mod_page_namingo.slonic.net/themes/infobia/assets/js/bb-jquery.js" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 03:30:10 UTC] routing.INFO: Page /namingo.slonic.net/themes/infobia/assets/js/bb-jquery.js not found  
+[29-Apr-2024 03:30:10 UTC] routing.INFO: Unable to find template "mod_page_namingo.slonic.net/themes/infobia/assets/js/tabler.min.js" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 03:30:10 UTC] routing.INFO: Page /namingo.slonic.net/themes/infobia/assets/js/tabler.min.js not found  
+[29-Apr-2024 03:32:51 UTC] routing.INFO: Unable to find template "mod_page_webui_.html.twig" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 03:32:51 UTC] routing.INFO: Page /webui/ not found  
+[29-Apr-2024 03:36:30 UTC] routing.INFO: Unable to find template "mod_page_favicon.ico" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 03:36:30 UTC] routing.INFO: Page /favicon.ico not found  
+[29-Apr-2024 03:40:40 UTC] routing.INFO: Unable to find template "mod_page_geoserver_web_.html.twig" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 03:40:40 UTC] routing.INFO: Page /geoserver/web/ not found  
+[29-Apr-2024 04:40:59 UTC] routing.INFO: Unable to find template "mod_page_favicon.ico" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 04:40:59 UTC] routing.INFO: Page /favicon.ico not found  
+[29-Apr-2024 04:49:40 UTC] routing.INFO: Unable to find template "mod_page_favicon.ico" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 04:49:40 UTC] routing.INFO: Page /favicon.ico not found  
+[29-Apr-2024 04:50:38 UTC] routing.INFO: Page /cgi-bin/luci/;stok=/locale not found  
+[29-Apr-2024 04:50:38 UTC] routing.INFO: Page /cgi-bin/luci/;stok=/locale not found  
+[29-Apr-2024 08:27:04 UTC] routing.INFO: Unable to find template "mod_page_3rdpartylicenses.txt" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 08:27:04 UTC] routing.INFO: Page /3rdpartylicenses.txt not found  
+[29-Apr-2024 10:17:38 UTC] routing.INFO: Page  not found  
+[29-Apr-2024 13:18:26 UTC] routing.INFO: Unable to find template "mod_page_actuator_health.html.twig" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 13:18:26 UTC] routing.INFO: Page /actuator/health not found  
+[29-Apr-2024 13:26:43 UTC] routing.INFO: Page /cgi-bin/luci/;stok=/locale not found  
+[29-Apr-2024 13:26:43 UTC] routing.INFO: Page /cgi-bin/luci/;stok=/locale not found  
+[29-Apr-2024 14:20:25 UTC] routing.INFO: Page /Public/home/js/check.js not found  
+[29-Apr-2024 14:20:26 UTC] routing.INFO: Unable to find template "mod_page_static_admin_javascript_hetong.js" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 14:20:26 UTC] routing.INFO: Page /static/admin/javascript/hetong.js not found  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Page /Portal0000.htm not found  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Unable to find template "mod_page_inicio.shtml" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Page /inicio.shtml not found  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Unable to find template "mod_page_nmaplowercheck1714409163.html.twig" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Page /nmaplowercheck1714409163 not found  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Unable to find template "mod_page_sdk.html.twig" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Page /sdk not found  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Unable to find template "mod_page_base.jsa" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Page /base.jsa not found  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Unable to find template "mod_page_pools_default_buckets.html.twig" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Page /pools/default/buckets not found  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Page /__Additional not found  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Page /CVyJ not found  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Unable to find template "mod_page_pools.html.twig" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Page /pools not found  
+[29-Apr-2024 16:46:03 UTC] routing.INFO: Page /HNAP1 not found  
+[29-Apr-2024 16:46:04 UTC] routing.INFO: Unable to find template "mod_page_rest_applinks_1.0/manifest" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:04 UTC] routing.INFO: Page /rest/applinks/1.0/manifest not found  
+[29-Apr-2024 16:46:04 UTC] routing.INFO: Page /scripts/WPnBr.dll not found  
+[29-Apr-2024 16:46:04 UTC] routing.INFO: Unable to find template "mod_page_confluence_rest_applinks_1.0/manifest" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:04 UTC] routing.INFO: Page /confluence/rest/applinks/1.0/manifest not found  
+[29-Apr-2024 16:46:04 UTC] routing.INFO: Unable to find template "mod_page_favicon.ico" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:04 UTC] routing.INFO: Page /favicon.ico not found  
+[29-Apr-2024 16:46:05 UTC] routing.INFO: Page /docs/cplugError.html/ not found  
+[29-Apr-2024 16:46:06 UTC] routing.INFO: Unable to find template "mod_page_home.shtml" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:06 UTC] routing.INFO: Page /home.shtml not found  
+[29-Apr-2024 16:46:06 UTC] routing.INFO: Unable to find template "mod_page_index.aspx" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:06 UTC] routing.INFO: Page /index.aspx not found  
+[29-Apr-2024 16:46:06 UTC] routing.INFO: Page .jsp not found  
+[29-Apr-2024 16:46:06 UTC] routing.INFO: Unable to find template "mod_page_default.shtml" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:06 UTC] routing.INFO: Page /default.shtml not found  
+[29-Apr-2024 16:46:07 UTC] routing.INFO: Unable to find template "mod_page_base.aspx" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:07 UTC] routing.INFO: Page /base.aspx not found  
+[29-Apr-2024 16:46:07 UTC] routing.INFO: Unable to find template "mod_page_indice.jsa" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:07 UTC] routing.INFO: Page /indice.jsa not found  
+[29-Apr-2024 16:46:07 UTC] routing.INFO: Unable to find template "mod_page_readme.txt" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:07 UTC] routing.INFO: Page /readme.txt not found  
+[29-Apr-2024 16:46:07 UTC] routing.INFO: Unable to find template "mod_page_home.jhtml" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:07 UTC] routing.INFO: Page /home.jhtml not found  
+[29-Apr-2024 16:46:08 UTC] routing.INFO: Page .shtml not found  
+[29-Apr-2024 16:46:09 UTC] routing.INFO: Unable to find template "mod_page_localstart.cfm" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:09 UTC] routing.INFO: Page /localstart.cfm not found  
+[29-Apr-2024 16:46:10 UTC] routing.INFO: Page .jsa not found  
+[29-Apr-2024 16:46:10 UTC] routing.INFO: Unable to find template "mod_page_inicio.aspx" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:10 UTC] routing.INFO: Page /inicio.aspx not found  
+[29-Apr-2024 16:46:10 UTC] routing.INFO: Unable to find template "mod_page_main.cgi" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:10 UTC] routing.INFO: Page /main.cgi not found  
+[29-Apr-2024 16:46:10 UTC] routing.INFO: Unable to find template "mod_page_main.asp" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:10 UTC] routing.INFO: Page /main.asp not found  
+[29-Apr-2024 16:46:11 UTC] routing.INFO: Unable to find template "mod_page_start.shtml" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:11 UTC] routing.INFO: Page /start.shtml not found  
+[29-Apr-2024 16:46:11 UTC] routing.INFO: Unable to find template "mod_page_index.shtml" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:11 UTC] routing.INFO: Page /index.shtml not found  
+[29-Apr-2024 16:46:11 UTC] routing.INFO: Page .html not found  
+[29-Apr-2024 16:46:11 UTC] routing.INFO: Unable to find template "mod_page_start.cgi" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:11 UTC] routing.INFO: Page /start.cgi not found  
+[29-Apr-2024 16:46:12 UTC] routing.INFO: Unable to find template "mod_page_default.jsa" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:12 UTC] routing.INFO: Page /default.jsa not found  
+[29-Apr-2024 16:46:12 UTC] routing.INFO: Unable to find template "mod_page_default.pl" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:12 UTC] routing.INFO: Page /default.pl not found  
+[29-Apr-2024 16:46:12 UTC] routing.INFO: Unable to find template "mod_page_base.asp" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:12 UTC] routing.INFO: Page /base.asp not found  
+[29-Apr-2024 16:46:12 UTC] routing.INFO: Unable to find template "mod_page_home.cgi" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:12 UTC] routing.INFO: Page /home.cgi not found  
+[29-Apr-2024 16:46:12 UTC] routing.INFO: Unable to find template "mod_page_localstart.jsa" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:12 UTC] routing.INFO: Page /localstart.jsa not found  
+[29-Apr-2024 16:46:13 UTC] routing.INFO: Page .aspx not found  
+[29-Apr-2024 16:46:13 UTC] routing.INFO: Page .asp not found  
+[29-Apr-2024 16:46:13 UTC] routing.INFO: Unable to find template "mod_page_main.jhtml" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:13 UTC] routing.INFO: Page /main.jhtml not found  
+[29-Apr-2024 16:46:13 UTC] routing.INFO: Unable to find template "mod_page_base.shtml" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:13 UTC] routing.INFO: Page /base.shtml not found  
+[29-Apr-2024 16:46:14 UTC] routing.INFO: Unable to find template "mod_page_menu.jsa" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 16:46:14 UTC] routing.INFO: Page /menu.jsa not found  
+[29-Apr-2024 20:18:46 UTC] routing.INFO: Unable to find template "mod_page_owa_auth_x.js" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 20:18:46 UTC] routing.INFO: Page /owa/auth/x.js not found  
+[29-Apr-2024 22:55:00 UTC] routing.INFO: Unable to find template "mod_page_manager_.html.twig" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 22:55:00 UTC] routing.INFO: Page /manager/ not found  
+[29-Apr-2024 23:15:11 UTC] routing.INFO: Unable to find template "mod_page_favicon.ico" (looked into: /var/www/themes/infobia/html_custom, /var/www/themes/infobia/html, /var/www/modules/Page/html_client).  
+[29-Apr-2024 23:15:11 UTC] routing.INFO: Page /favicon.ico not found  

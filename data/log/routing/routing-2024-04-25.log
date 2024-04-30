@@ -1,0 +1,26 @@
+[25-Apr-2024 20:33:02 UTC] routing.INFO: Unable to find template "mod_page_actuator_health.html.twig" (looked into: /var/www/themes/tide/html_custom, /var/www/themes/tide/html, /var/www/modules/Page/html_client).  
+[25-Apr-2024 20:33:02 UTC] routing.INFO: Page /actuator/health not found  
+[25-Apr-2024 20:44:35 UTC] routing.INFO: Unable to find template "mod_page_favicon.ico" (looked into: /var/www/themes/tide/html_custom, /var/www/themes/tide/html, /var/www/modules/Page/html_client).  
+[25-Apr-2024 20:44:35 UTC] routing.INFO: Page /favicon.ico not found  
+[25-Apr-2024 21:02:44 UTC] routing.INFO: Page /request_uri not found  
+[25-Apr-2024 21:51:04 UTC] routing.INFO: Unable to find template "mod_page_favicon.ico" (looked into: /var/www/themes/tide/html_custom, /var/www/themes/tide/html, /var/www/modules/Page/html_client).  
+[25-Apr-2024 21:51:04 UTC] routing.INFO: Page /favicon.ico not found  
+[25-Apr-2024 21:53:02 UTC] routing.INFO: Page /request_uri/ not found  
+[25-Apr-2024 22:02:48 UTC] routing.INFO: Page /request_uri/ not found  
+[25-Apr-2024 22:03:35 UTC] routing.INFO: Unable to find template "mod_page_favicon.ico" (looked into: /var/www/themes/tide/html_custom, /var/www/themes/tide/html, /var/www/modules/Page/html_client).  
+[25-Apr-2024 22:03:35 UTC] routing.INFO: Page /favicon.ico not found  
+[25-Apr-2024 22:04:29 UTC] routing.INFO: Unable to find template "mod_page_favicon.ico" (looked into: /var/www/themes/tide/html_custom, /var/www/themes/tide/html, /var/www/modules/Page/html_client).  
+[25-Apr-2024 22:04:29 UTC] routing.INFO: Page /favicon.ico not found  
+[25-Apr-2024 22:07:22 UTC] routing.INFO: Unable to find template "mod_page_favicon.ico" (looked into: /var/www/themes/tide/html_custom, /var/www/themes/tide/html, /var/www/modules/Page/html_client).  
+[25-Apr-2024 22:07:22 UTC] routing.INFO: Page /favicon.ico not found  
+[25-Apr-2024 22:07:47 UTC] routing.INFO: Page /request_uri/ not found  
+[25-Apr-2024 22:15:43 UTC] routing.INFO: Page /request_uri/ not found  
+[25-Apr-2024 22:22:00 UTC] routing.INFO: Page /request_uri/ not found  
+[25-Apr-2024 22:31:21 UTC] routing.INFO: Page /request_uri/ not found  
+[25-Apr-2024 22:35:32 UTC] routing.INFO: Page /request_uri/ not found  
+[25-Apr-2024 23:08:37 UTC] routing.INFO: Page /request_uri/ not found  
+[25-Apr-2024 23:22:21 UTC] routing.INFO: Page /request_uri not found  
+[25-Apr-2024 23:24:43 UTC] routing.INFO: Page /request_uri/ not found  
+[25-Apr-2024 23:30:26 UTC] routing.INFO: Page /request_uri/ not found  
+[25-Apr-2024 23:40:44 UTC] routing.INFO: Page /request_uri/ not found  
+[25-Apr-2024 23:46:25 UTC] routing.INFO: Page /request_uri/ not found  

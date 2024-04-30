@@ -1,0 +1,2113 @@
+[26-Apr-2024 00:03:41 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="is_success">0</item>
+    <item key="response_code">500</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:05:08 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">0</item>
+    <item key="response_code">500</item>
+    <item key="protocol">XCP</item>
+    <item key="response_text">Unrecognized protocol</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:09:42 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="is_success">0</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">500</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:09:50 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="protocol">XCP</item>
+    <item key="is_success">0</item>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="response_code">500</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:09:59 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">0</item>
+    <item key="response_code">500</item>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:10:23 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">0</item>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="response_code">500</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:12:14 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_code">500</item>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="protocol">XCP</item>
+    <item key="is_success">0</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:14:22 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="response_code">500</item>
+    <item key="protocol">XCP</item>
+    <item key="is_success">0</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:17:15 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="is_success">0</item>
+    <item key="response_code">500</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:19:42 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="response_code">500</item>
+    <item key="protocol">XCP</item>
+    <item key="is_success">0</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:29:02 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="protocol">XCP</item>
+    <item key="response_code">500</item>
+    <item key="response_text">Unrecognized protocol</item>
+    <item key="is_success">0</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:36:40 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">0</item>
+    <item key="protocol">XCP</item>
+    <item key="object">AUTHENTICATE</item>
+    <item key="response_text">Could not get credentials for reseller needhost\n.</item>
+    <item key="action">REPLY</item>
+    <item key="response_code">400</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:38:26 UTC] application.INFO: Updated domain registrar OpenSRS configuration ["OpenSRS"] 
+[26-Apr-2024 00:38:32 UTC] application.INFO: Updated domain registrar OpenSRS configuration ["OpenSRS"] 
+[26-Apr-2024 00:38:44 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">0</item>
+    <item key="response_code">400</item>
+    <item key="response_text">Could not get credentials for reseller needhost\n.</item>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+    <item key="object">AUTHENTICATE</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:40:17 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_code">400</item>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+    <item key="is_success">0</item>
+    <item key="object">AUTHENTICATE</item>
+    <item key="response_text">Could not get credentials for reseller needhost\r\n.</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:49:49 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">0</item>
+    <item key="response_text">Couldn&apos;t extract a TLD or TLD not serviced by OpenSRS [Name: afdsfasdfadsf.com
+TLD: .com
+SLD: afdsfasdfadsf
+EPP: 
+Registration period:  year(s)
+Registered at: -
+Expires at: -
+WHOIS Privacy Protection enabled: No
+
+Nameserver #1: 
+Nameserver #2: 
+Nameserver #3: 
+Nameserver #4: 
+]</item>
+    <item key="response_code">701</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:54:38 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_code">701</item>
+    <item key="protocol">XCP</item>
+    <item key="is_success">0</item>
+    <item key="response_text">Couldn&apos;t extract a TLD or TLD not serviced by OpenSRS [Name: afdsfasdfadsf.com
+TLD: .com
+SLD: afdsfasdfadsf
+EPP: 
+Registration period:  year(s)
+Registered at: -
+Expires at: -
+WHOIS Privacy Protection enabled: No
+
+Nameserver #1: 
+Nameserver #2: 
+Nameserver #3: 
+Nameserver #4: 
+]</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:58:12 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="protocol">XCP</item>
+    <item key="response_text">Couldn&apos;t extract a TLD or TLD not serviced by OpenSRS [Name: afdsfasdfadsf.com
+TLD: .com
+SLD: afdsfasdfadsf
+EPP: 
+Registration period:  year(s)
+Registered at: -
+Expires at: -
+WHOIS Privacy Protection enabled: No
+
+Nameserver #1: 
+Nameserver #2: 
+Nameserver #3: 
+Nameserver #4: 
+]</item>
+    <item key="response_code">701</item>
+    <item key="is_success">0</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:59:56 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain" class="Registrar_Domain">        <dt_scalar>Name: afdsfasdfadsf.com
+TLD: .com
+SLD: afdsfasdfadsf
+EPP: 
+Registration period:  year(s)
+Registered at: -
+Expires at: -
+WHOIS Privacy Protection enabled: No
+
+Nameserver #1: 
+Nameserver #2: 
+Nameserver #3: 
+Nameserver #4: 
+</dt_scalar>      </item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 00:59:57 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">0</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">701</item>
+    <item key="response_text">Couldn&apos;t extract a TLD or TLD not serviced by OpenSRS [Name: afdsfasdfadsf.com
+TLD: .com
+SLD: afdsfasdfadsf
+EPP: 
+Registration period:  year(s)
+Registered at: -
+Expires at: -
+WHOIS Privacy Protection enabled: No
+
+Nameserver #1: 
+Nameserver #2: 
+Nameserver #3: 
+Nameserver #4: 
+]</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:02:34 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:02:35 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">0</item>
+    <item key="protocol">XCP</item>
+    <item key="response_text">Couldn&apos;t extract a TLD or TLD not serviced by OpenSRS [afdsfasdfadsf]</item>
+    <item key="response_code">701</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:04:00 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:04:01 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="object">DOMAIN</item>
+    <item key="response_text">Domain available</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="action">REPLY</item>
+    <item key="response_code">210</item>
+    <item key="is_success">1</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:09:12 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:09:13 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="response_text">Domain available</item>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+    <item key="response_code">210</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:10:16 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:10:17 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Domain available</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="response_code">210</item>
+    <item key="action">REPLY</item>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:11:12 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:11:12 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Domain available</item>
+    <item key="protocol">XCP</item>
+    <item key="is_success">1</item>
+    <item key="object">DOMAIN</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="action">REPLY</item>
+    <item key="response_code">210</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:12:04 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:12:05 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="action">REPLY</item>
+    <item key="response_code">210</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+    <item key="response_text">Domain available</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:14:46 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:14:47 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_code">210</item>
+    <item key="is_success">1</item>
+    <item key="response_text">Domain available</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="object">DOMAIN</item>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:16:59 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:17:00 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="action">REPLY</item>
+    <item key="object">DOMAIN</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="is_success">1</item>
+    <item key="response_text">Domain available</item>
+    <item key="response_code">210</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:17:10 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:17:11 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Domain available</item>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+    <item key="response_code">210</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:17:42 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:17:42 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Domain available</item>
+    <item key="is_success">1</item>
+    <item key="response_code">210</item>
+    <item key="action">REPLY</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="protocol">XCP</item>
+    <item key="object">DOMAIN</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:18:30 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:18:31 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Domain available</item>
+    <item key="is_success">1</item>
+    <item key="response_code">210</item>
+    <item key="action">REPLY</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="protocol">XCP</item>
+    <item key="object">DOMAIN</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:19:20 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:19:21 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">1</item>
+    <item key="response_text">Domain available</item>
+    <item key="response_code">210</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="object">DOMAIN</item>
+    <item key="action">REPLY</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:19:40 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:19:41 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="object">DOMAIN</item>
+    <item key="response_text">Domain available</item>
+    <item key="response_code">210</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="is_success">1</item>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:20:23 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:20:24 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="protocol">XCP</item>
+    <item key="is_success">1</item>
+    <item key="response_text">Domain available</item>
+    <item key="object">DOMAIN</item>
+    <item key="response_code">210</item>
+    <item key="action">REPLY</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:20:56 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:20:57 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="response_text">Domain available</item>
+    <item key="response_code">210</item>
+    <item key="action">REPLY</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:21:20 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:21:21 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="action">REPLY</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="protocol">XCP</item>
+    <item key="object">DOMAIN</item>
+    <item key="response_text">Domain available</item>
+    <item key="response_code">210</item>
+    <item key="is_success">1</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:22:23 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:22:24 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Domain available</item>
+    <item key="action">REPLY</item>
+    <item key="object">DOMAIN</item>
+    <item key="response_code">210</item>
+    <item key="protocol">XCP</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="is_success">1</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:23:02 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:23:03 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="protocol">XCP</item>
+    <item key="response_text">Domain available</item>
+    <item key="response_code">210</item>
+    <item key="is_success">1</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="object">DOMAIN</item>
+    <item key="action">REPLY</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:23:10 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">afdsfasdfadsf.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:23:11 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Domain available</item>
+    <item key="action">REPLY</item>
+    <item key="object">DOMAIN</item>
+    <item key="response_code">210</item>
+    <item key="protocol">XCP</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="is_success">1</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:23:20 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">infobia.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:23:21 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="action">REPLY</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">taken</item>
+     </dt_assoc>
+    </item>
+    <item key="response_code">211</item>
+    <item key="protocol">XCP</item>
+    <item key="response_text">Domain taken</item>
+    <item key="is_success">1</item>
+    <item key="object">DOMAIN</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:23:33 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">google.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:23:34 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+    <item key="response_text">Domain taken</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">211</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">taken</item>
+     </dt_assoc>
+    </item>
+    <item key="action">REPLY</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:23:38 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">googleapis.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:23:39 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Domain taken</item>
+    <item key="response_code">211</item>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">taken</item>
+     </dt_assoc>
+    </item>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:23:42 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">googleapisaasda.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:23:43 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">1</item>
+    <item key="response_code">210</item>
+    <item key="response_text">Domain available</item>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="object">DOMAIN</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:24:31 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">lakalakala.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:24:34 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+    <item key="is_success">1</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">taken</item>
+     </dt_assoc>
+    </item>
+    <item key="response_code">211</item>
+    <item key="response_text">Domain taken</item>
+    <item key="object">DOMAIN</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:24:39 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">LOOKUP</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">asdfoiuwejrfnw.com</item>      <item key="no_cache">1</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:24:40 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_code">210</item>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+    <item key="is_success">1</item>
+    <item key="object">DOMAIN</item>
+    <item key="response_text">Domain available</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 01:25:05 UTC] application.INFO: Removed product from shopping cart  
+[26-Apr-2024 12:48:55 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">CHECK_TRANSFER</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">infobia.com</item>      <item key="check_status">1</item>      <item key="get_request_address">0</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 12:48:58 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Query successful</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">200</item>
+    <item key="action">REPLY</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+      <item key="transferrable">0</item>
+      <item key="noservice">0</item>
+     </dt_assoc>
+    </item>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 12:49:07 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">CHECK_TRANSFER</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">gigaphoto.com</item>      <item key="check_status">1</item>      <item key="get_request_address">0</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 12:49:08 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="protocol">XCP</item>
+    <item key="response_code">200</item>
+    <item key="response_text">Query successful</item>
+    <item key="is_success">1</item>
+    <item key="object">DOMAIN</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="transferrable">0</item>
+      <item key="reason_code">domain_already_belongs_to_current_reseller</item>
+      <item key="reason">Domain already exists in INFOBIA d.o.o.&apos;s account</item>
+      <item key="noservice">0</item>
+     </dt_assoc>
+    </item>
+    <item key="action">REPLY</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 12:51:21 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">CHECK_TRANSFER</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">popocatepetl.com</item>      <item key="check_status">1</item>      <item key="get_request_address">0</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 12:51:24 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Query successful</item>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+    <item key="protocol">XCP</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="noservice">0</item>
+      <item key="transferrable">0</item>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+     </dt_assoc>
+    </item>
+    <item key="action">REPLY</item>
+    <item key="response_code">200</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:15:30 UTC] application.INFO: API REQUEST: <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+ </header>
+ <body>
+  <data_block>
+   <dt_assoc>    <item key="action">CHECK_TRANSFER</item>    <item key="object">DOMAIN</item>    <item key="protocol">XCP</item>    <item key="attributes">
+     <dt_assoc>      <item key="domain">popocatepetl.com</item>      <item key="check_status">1</item>      <item key="get_request_address">0</item>      </dt_assoc>    </item>    </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:15:33 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">1</item>
+    <item key="protocol">XCP</item>
+    <item key="response_text">Query successful</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+      <item key="noservice">0</item>
+      <item key="transferrable">0</item>
+     </dt_assoc>
+    </item>
+    <item key="response_code">200</item>
+    <item key="action">REPLY</item>
+    <item key="object">DOMAIN</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:17:43 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+    <item key="object">DOMAIN</item>
+    <item key="response_text">Query successful</item>
+    <item key="response_code">200</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="noservice">0</item>
+      <item key="transferrable">0</item>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+     </dt_assoc>
+    </item>
+    <item key="is_success">1</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:17:54 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="transferrable">0</item>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+      <item key="noservice">0</item>
+     </dt_assoc>
+    </item>
+    <item key="object">DOMAIN</item>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+    <item key="response_text">Query successful</item>
+    <item key="response_code">200</item>
+    <item key="is_success">1</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:18:53 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="noservice">0</item>
+      <item key="transferrable">0</item>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+     </dt_assoc>
+    </item>
+    <item key="protocol">XCP</item>
+    <item key="is_success">1</item>
+    <item key="response_text">Query successful</item>
+    <item key="object">DOMAIN</item>
+    <item key="response_code">200</item>
+    <item key="action">REPLY</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:19:03 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="action">REPLY</item>
+    <item key="response_text">Query successful</item>
+    <item key="response_code">200</item>
+    <item key="protocol">XCP</item>
+    <item key="object">DOMAIN</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="noservice">0</item>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+      <item key="transferrable">0</item>
+     </dt_assoc>
+    </item>
+    <item key="is_success">1</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:19:36 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="protocol">XCP</item>
+    <item key="response_text">Query successful</item>
+    <item key="is_success">1</item>
+    <item key="object">DOMAIN</item>
+    <item key="response_code">200</item>
+    <item key="action">REPLY</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="noservice">0</item>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+      <item key="transferrable">0</item>
+     </dt_assoc>
+    </item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:19:56 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">1</item>
+    <item key="object">DOMAIN</item>
+    <item key="response_text">Query successful</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+      <item key="noservice">0</item>
+      <item key="transferrable">0</item>
+     </dt_assoc>
+    </item>
+    <item key="response_code">200</item>
+    <item key="action">REPLY</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:20:23 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="noservice">0</item>
+      <item key="transferrable">0</item>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+     </dt_assoc>
+    </item>
+    <item key="response_text">Query successful</item>
+    <item key="response_code">200</item>
+    <item key="action">REPLY</item>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:20:43 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_code">200</item>
+    <item key="object">DOMAIN</item>
+    <item key="action">REPLY</item>
+    <item key="response_text">Query successful</item>
+    <item key="is_success">1</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="noservice">0</item>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+      <item key="transferrable">0</item>
+     </dt_assoc>
+    </item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:21:02 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Query successful</item>
+    <item key="is_success">1</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="transferrable">0</item>
+      <item key="noservice">0</item>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+     </dt_assoc>
+    </item>
+    <item key="object">DOMAIN</item>
+    <item key="action">REPLY</item>
+    <item key="response_code">200</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:21:32 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Query successful</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">200</item>
+    <item key="action">REPLY</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="noservice">0</item>
+      <item key="transferrable">0</item>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+     </dt_assoc>
+    </item>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:21:42 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Query successful</item>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+    <item key="action">REPLY</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+      <item key="transferrable">0</item>
+      <item key="noservice">0</item>
+     </dt_assoc>
+    </item>
+    <item key="response_code">200</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:21:58 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+    <item key="response_text">Query successful</item>
+    <item key="response_code">200</item>
+    <item key="action">REPLY</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="noservice">0</item>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+      <item key="transferrable">0</item>
+     </dt_assoc>
+    </item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:22:45 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="action">REPLY</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">200</item>
+    <item key="response_text">Query successful</item>
+    <item key="is_success">1</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="noservice">0</item>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+      <item key="transferrable">0</item>
+     </dt_assoc>
+    </item>
+    <item key="object">DOMAIN</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:22:58 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">1</item>
+    <item key="protocol">XCP</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+      <item key="transferrable">0</item>
+      <item key="noservice">0</item>
+     </dt_assoc>
+    </item>
+    <item key="action">REPLY</item>
+    <item key="response_code">200</item>
+    <item key="object">DOMAIN</item>
+    <item key="response_text">Query successful</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:23:08 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">1</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="reason">Domain status clientTransferProhibited does not allow for transfer</item>
+      <item key="transferrable">0</item>
+      <item key="noservice">0</item>
+     </dt_assoc>
+    </item>
+    <item key="response_text">Query successful</item>
+    <item key="response_code">200</item>
+    <item key="object">DOMAIN</item>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:23:21 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Query successful</item>
+    <item key="is_success">1</item>
+    <item key="object">DOMAIN</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="reason_code">domain_already_belongs_to_current_reseller</item>
+      <item key="transferrable">0</item>
+      <item key="noservice">0</item>
+      <item key="reason">Domain already exists in INFOBIA d.o.o.&apos;s account</item>
+     </dt_assoc>
+    </item>
+    <item key="action">REPLY</item>
+    <item key="response_code">200</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:23:35 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="action">REPLY</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">211</item>
+    <item key="response_text">Domain taken</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">taken</item>
+     </dt_assoc>
+    </item>
+    <item key="is_success">1</item>
+    <item key="object">DOMAIN</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:23:44 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="action">REPLY</item>
+    <item key="protocol">XCP</item>
+    <item key="response_text">Domain taken</item>
+    <item key="response_code">211</item>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">taken</item>
+     </dt_assoc>
+    </item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:24:03 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="action">REPLY</item>
+    <item key="protocol">XCP</item>
+    <item key="response_code">210</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="response_text">Domain available</item>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:24:44 UTC] application.INFO: Removed product from shopping cart  
+[26-Apr-2024 13:29:01 UTC] application.INFO: Updated top level domain .com [".com"] 
+[26-Apr-2024 13:29:20 UTC] application.INFO: Created new top level domain .net [".net"] 
+[26-Apr-2024 13:29:40 UTC] application.INFO: Created new top level domain .org [".org"] 
+[26-Apr-2024 13:30:28 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="response_text">Domain taken</item>
+    <item key="is_success">1</item>
+    <item key="object">DOMAIN</item>
+    <item key="action">REPLY</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">taken</item>
+     </dt_assoc>
+    </item>
+    <item key="response_code">211</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:30:35 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">1</item>
+    <item key="response_text">Query successful</item>
+    <item key="response_code">200</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="noservice">0</item>
+      <item key="reason">Domain already exists in INFOBIA d.o.o.&apos;s account</item>
+      <item key="reason_code">domain_already_belongs_to_current_reseller</item>
+      <item key="transferrable">0</item>
+     </dt_assoc>
+    </item>
+    <item key="object">DOMAIN</item>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 13:35:36 UTC] application.INFO: Installed new domain registrar CentralNicReseller ["CentralNicReseller"] 
+[26-Apr-2024 13:35:59 UTC] application.INFO: Removed domain registrar Custom ["Custom"] 
+[26-Apr-2024 13:42:05 UTC] application.INFO: Updated domain registrar CentralNicReseller configuration ["CentralNicReseller"] 
+[26-Apr-2024 13:43:57 UTC] application.INFO: Installed new domain registrar Arnes ["Arnes"] 
+[26-Apr-2024 13:51:43 UTC] application.INFO: Updated domain registrar Arnes configuration ["Arnes"] 
+[26-Apr-2024 13:53:13 UTC] application.INFO: Created new top level domain .si [".si"] 
+[26-Apr-2024 13:54:08 UTC] application.INFO: Created new top level domain .eu [".eu"] 
+[26-Apr-2024 14:25:55 UTC] application.INFO: Updated domain registrar Arnes configuration ["Arnes"] 
+[26-Apr-2024 14:26:51 UTC] application.INFO: Updated domain registrar CentralNicReseller configuration ["CentralNicReseller"] 
+[26-Apr-2024 14:34:57 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="object">DOMAIN</item>
+    <item key="protocol">XCP</item>
+    <item key="action">REPLY</item>
+    <item key="response_code">210</item>
+    <item key="is_success">1</item>
+    <item key="response_text">Domain available</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 14:57:02 UTC] application.INFO: Updated domain registrar CentralNicReseller configuration ["CentralNicReseller"] 
+[26-Apr-2024 14:57:12 UTC] application.INFO: Updated domain registrar Arnes configuration ["Arnes"] 
+[26-Apr-2024 15:05:49 UTC] application.INFO: Updated domain registrar Arnes configuration ["Arnes"] 
+[26-Apr-2024 15:07:30 UTC] application.INFO: Updated domain registrar Arnes configuration ["Arnes"] 
+[26-Apr-2024 15:08:16 UTC] application.INFO: Updated domain registrar Arnes configuration ["Arnes"] 
+[26-Apr-2024 15:08:23 UTC] application.INFO: Updated domain registrar Arnes configuration ["Arnes"] 
+[26-Apr-2024 15:08:25 UTC] application.INFO: Updated domain registrar Arnes configuration ["Arnes"] 
+[26-Apr-2024 15:08:31 UTC] application.INFO: Updated domain registrar Arnes configuration ["Arnes"] 
+[26-Apr-2024 15:08:56 UTC] application.INFO: Updated top level domain .com [".com"] 
+[26-Apr-2024 15:14:31 UTC] application.INFO: Updated top level domain .com [".com"] 
+[26-Apr-2024 15:14:48 UTC] application.INFO: Updated domain registrar CentralNicReseller configuration ["CentralNicReseller"] 
+[26-Apr-2024 15:14:57 UTC] application.INFO: Updated domain registrar Arnes configuration ["Arnes"] 
+[26-Apr-2024 15:15:56 UTC] application.INFO: Updated domain registrar Arnes configuration ["Arnes"] 
+[26-Apr-2024 15:47:13 UTC] application.INFO: Logged out  
+[26-Apr-2024 16:26:36 UTC] application.INFO: Admin logged out  
+[26-Apr-2024 16:50:51 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">available</item>
+     </dt_assoc>
+    </item>
+    <item key="action">REPLY</item>
+    <item key="response_code">210</item>
+    <item key="object">DOMAIN</item>
+    <item key="is_success">1</item>
+    <item key="response_text">Domain available</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 16:51:24 UTC] application.INFO: API RESULT: <?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+ <header>
+  <version>0.9</version>
+  </header>
+ <body>
+  <data_block>
+   <dt_assoc>
+    <item key="is_success">1</item>
+    <item key="object">DOMAIN</item>
+    <item key="response_text">Domain taken</item>
+    <item key="attributes">
+     <dt_assoc>
+      <item key="status">taken</item>
+     </dt_assoc>
+    </item>
+    <item key="response_code">211</item>
+    <item key="action">REPLY</item>
+    <item key="protocol">XCP</item>
+   </dt_assoc>
+  </data_block>
+ </body>
+</OPS_envelope>  
+[26-Apr-2024 16:52:43 UTC] application.INFO: Created new top level domain .de [".de"] 
+[26-Apr-2024 16:57:05 UTC] application.INFO: Updated domain registrar CentralNicReseller configuration ["CentralNicReseller"] 
+[26-Apr-2024 17:45:00 UTC] application.INFO: Updated top level domain .com [".com"] 
+[26-Apr-2024 17:45:44 UTC] application.INFO: Updated top level domain .net [".net"] 
+[26-Apr-2024 17:45:52 UTC] application.INFO: Updated top level domain .org [".org"] 

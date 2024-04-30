@@ -1,0 +1,66 @@
+<div class="revolut-fast-checkout-container">
+    <style>        
+        #revolut-payment-request-fast-checkout-button iframe {
+            height: 60px !important;
+        }
+    </style>
+    
+    <div id="revolut-pay-fast-checkout-button"></div>
+    <div id="revolut-payment-request-fast-checkout-button"></div>
+    <div id="revolut-fc-error-messages" class="mage-error"></div>
+    
+    <script>
+        const productId = "<?= $block->getProductId() ?>";
+        const productUrl = "<?= $block->getProductUrl() ?>";
+        const cartUrl = "<?= $block->getCartPageUrl() ?>";
+        const baseUrl = "<?= $block->getStoreBaseUrl() ?>";
+        const revolutPayRedirectUrl = "<?= $block->getRevolutPayRedirectUrl() ?>";
+        const isShoppingCart = "<?= $block->getIsShoppingCart() ?>";
+        const storeCode = "<?= $block->getStoreCode() ?>";
+        const locale = "<?= $block->getLocaleCode() ?>";
+        const revolutSdk = "<?= $block->getRevolutSdk() ?>";
+        const RevolutPaymentRequestPaymentMethodCode = "<?= $block->getRevolutPaymentRequestPaymentMethodCode() ?>";
+        const RevolutPayPaymentMethodCode = "<?= $block->getRevolutPayPaymentMethodCode() ?>";
+        
+        if(!window.checkoutConfig){
+            window.checkoutConfig = {};
+        }
+
+        if(!window.checkoutConfig.storeCode){
+            window.checkoutConfig.storeCode = storeCode;
+        }
+
+        window.fastCheckoutConfig = {
+            locale: locale,
+            productId: productId,
+            productUrl: productUrl,
+            cartUrl: cartUrl,
+            revolutSdk: revolutSdk,
+            baseUrl: baseUrl,
+            revolutPayRedirectUrl: revolutPayRedirectUrl,
+            RevolutPaymentRequestPaymentMethodCode: RevolutPaymentRequestPaymentMethodCode,
+            RevolutPayPaymentMethodCode: RevolutPayPaymentMethodCode,
+        };
+        
+        let locationPage = isShoppingCart ? "cart" : "product";
+        
+        require(
+            [
+            'domReady!', 
+            "mage/url",
+            "mage/storage",
+            'Revolut_Payment/js/view/payment/method-renderer/fast-checkout/revolut-payment-request-fast-checkout',
+            'Revolut_Payment/js/view/payment/method-renderer/fast-checkout/revolut-pay-fast-checkout'
+            ], 
+        function(domReady, urlBuilder, storage, RevolutPaymentRequest, RevolutPay)
+        {
+            storage.get(urlBuilder.build(`/rest/${storeCode}/V1/revolut/fast-checkout/params?location=${locationPage}`)).done(function (response) {                
+                window.fastCheckoutConfig.revolutPaymentRequestThemeConfigs = JSON.parse(response.revolut_payment_request_theme_configs);
+                window.fastCheckoutConfig.revolutPayThemeConfigs = JSON.parse(response.revolut_pay_theme_configs);
+                window.fastCheckoutConfig.revolutSdk = response.revolut_sdk;
+                RevolutPaymentRequest().initFastCheckoutButton(response.is_revolut_payment_request_active_location, isShoppingCart);
+                RevolutPay().initFastCheckoutButton(response.is_revolut_pay_active_location, isShoppingCart);
+            });
+        });
+    </script>
+</div>
