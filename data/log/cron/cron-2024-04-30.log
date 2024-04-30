@@ -994,3 +994,15 @@
 [30-Apr-2024 13:50:01 UTC] cron.INFO: Executed action to activate paid invoices  
 [30-Apr-2024 13:50:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
 [30-Apr-2024 13:50:01 UTC] cron.INFO: Finished executing cron jobs  
+[30-Apr-2024 13:55:01 UTC] cron.INFO: Started executing cron jobs  
+[30-Apr-2024 13:55:01 UTC] cron.INFO: Pruned the filesystem cache  
+[30-Apr-2024 13:55:01 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[30-Apr-2024 13:55:01 UTC] cron.INFO: Executed action to activate paid invoices  
+[30-Apr-2024 13:55:01 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[30-Apr-2024 13:55:01 UTC] cron.INFO: Finished executing cron jobs  
+[30-Apr-2024 14:00:01 UTC] cron.INFO: Started executing cron jobs  
+[30-Apr-2024 14:00:02 UTC] cron.INFO: Pruned the filesystem cache  
+[30-Apr-2024 14:00:02 UTC] cron.INFO: Executed action to try cover unpaid invoices with client credits  
+[30-Apr-2024 14:00:02 UTC] cron.INFO: Executed action to activate paid invoices  
+[30-Apr-2024 14:00:02 UTC] cron.INFO: Cleared 0 outdated sessions from the database  
+[30-Apr-2024 14:00:02 UTC] cron.INFO: Finished executing cron jobs  

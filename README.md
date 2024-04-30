@@ -1,5 +1,5 @@
 <h1 align="center">
-  <br>This is a fork of original FOSSBiling. You can find details about the original reading the below information or by clicking the original links. <br><br>The development / improvement cycle just started, no public info available at the moment.<br><br>
+  <br>This is a fork of original FOSSBiling. You can find details about the original reading the below information or by clicking the original links. <br><br><h3>The development/improvement cycle just started, no public info available at the moment.</h3><br><br>
   <a href="https://fossbilling.org/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FOSSBilling/fossbilling.org/main/public/img/wordmark-white.png">
